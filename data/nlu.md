@@ -71,6 +71,7 @@
 - Does college offer IT department?
 - Does college offer COMPS department?
 - Does college have AL&ML department?
+- Does college have ALML department?
 - Does college have DATA ENGINEERING department?
 - Does college has CIVIL department?
 - departments of college
