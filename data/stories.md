@@ -1,22 +1,10 @@
 ## open_widget
 * start
     - utter_init_chat
-    - utter_ask_lang
 
 ## suggestions
 * suggestions
     - utter_suggestions
-
-## language_h
-* lang_h
-    - utter_ask_details_h
-    - user_form
-    - form{"name": "user_form"}
-    - form{"name": null}
-    - email_form
-    - form{"name": "email_form"}
-    - form{"name": null}
-    - utter_greet_h
 
 ## language_e + suggestions
 * lang_e
@@ -67,10 +55,6 @@
 * accept
     - form{"name": null}
     - utter_id_application_accept
-
-## change langauage
-* change_language
-    - utter_ask_lang
 
 ## greet
 * greet
@@ -158,14 +142,6 @@
 * it_newsletter
     - utter_it_newsletter
 
-## admission_schedule_h
-* admission_schedule_h
-    - utter_admission_schedule_h
-
-## admission_criteria_h
-* admission_criteria_h
-    - utter_admission_criteria_h
-
 ## ask_admission_criteria
 * admission_criteria
     - utter_admission_criteria
@@ -185,20 +161,6 @@
 ## diploma_eligibility_criteria
 * diploma_admissions{"diploma_eligibility_criteria":"Diploma Eligibility Criteria"}
     - utter_diploma_criteria
-
-## ask_admission_h
-* admission_h
-    - utter_admission_h
-* intake_h
-    - utter_intake_h
-* cutoff_h
-    - utter_cutoff_h
-* document_h
-    - utter_document_h
-
-## ask_documents_h
-* document_h
-    - utter_document_h
 
 ## ask_dte
 * dte_code
@@ -230,42 +192,13 @@
     - utter_brochure
     - utter_suggestions
 
-## brochure_h
-* brochure_h
-    - utter_brochure_h
-    
 ## merit
 * merit
     - utter_merit
 
-## merit_h
-* merit_h
-    - utter_merit_h
-
-## ask_admission_h
-* admission_h
-    - utter_admission_h
-
-## ask_cutoff_h
-* cutoff_h
-    - utter_cutoff_h
-
-## ask_documents_h
-* document_h
-    - utter_document_h
-
-## ask_docs_h
-* docs_h
-    - utter_docs_h
-    - utter_document_h
-
 ## ask_cutoff
 * cutoff
     - utter_cutoff
-
-## ask_dte_h
-* dte_h
-    - utter_dte_h
 
 ## last_date_admission
 * last_date_admission
@@ -280,20 +213,6 @@
 * department
     - utter_department
 
-## department_h
-* department_h
-    - utter_department_h
-
-## ask_minority_h
-* minority_h
-    - utter_minority_h
-    - utter_document_h
-
-## ask_reserved_h
-* reserved_h
-    - utter_reserved_h
-    - utter_document_h
-
 ## reservation
 * reservation
    - utter_reservation
@@ -301,16 +220,6 @@
 ## minority
 * minority
    - utter_minority
-
-## ask_minority_h
-* minority_h
-    - utter_minority_h
-    - utter_document_h
-
-## ask_reserved_h
-* reserved_h
-    - utter_reserved_h
-    - utter_document_h
 
 ## ask_payment
 * payment
@@ -320,29 +229,11 @@
 * payment_date
     - utter_payment_date
    
-## ask_payment_h
-* payment_h
-    - utter_payment_h
-    - utter_fees_h
 
 ## ask_scholarship    
 * scholarship
     - utter_scholarship   
      
-## ask_scholarship_h    
-* scholarship_h
-    - utter_scholarship_h
-    - utter_fees_h
-
-## fees_button
-* fees_h_btn
-    - utter_fees_h
-
-## fees_h
-* fees_h
-    - utter_fees_details
-    - utter_fees_h
-
 ## fees
 * fees
     - utter_fees
@@ -376,18 +267,10 @@
 * ucoe
     - utter_ucoe
 
-## college_h
-* college_h
-    - utter_college_h
-
 ## notices
 * notices
     - utter_notices
     - utter_suggestions
-
-## images_h_
-* images_h
-    - utter_display_h
 
 ## images
 * images
@@ -425,10 +308,6 @@
 * attendance
     - utter_attendance_criteria
 
-## attendance_h
-* attendance_h
-    - utter_attendance_h
-
 ## faculty_name
 * faculty_name
     - utter_faculty_name
@@ -437,17 +316,9 @@
 * principal
     - utter_principal
 
-## principal_h
-* principal_h
-    - utter_principal_h
-
 ## college_timing
 * college_timing
     - utter_college_timing
-
-## college_timing_h
-* college_timing_h
-    - utter_college_timing_h   
 
 ## college_reopen
 * college_reopen
@@ -457,18 +328,10 @@
 * academic_calendar
     -  utter_academic_calendar
     
-## academic_calendar1
-* academic_calendar_h
-    -  utter_academic_calendar_h
-
 ## about_college
 * about_college
     - utter_about_college
     - utter_suggestions
-
-## about_college_h
-* about_college_h
-    - utter_about_college_h
 
 ## transport_way
 * transport_way
@@ -484,25 +347,6 @@
 * bus_fees
     - utter_bus_fees
 
-## ask_bus_service_h
-* bus_service_h
-    - utter_bus_service_h
-
-## ask_bus_h
-* bus_fees_h
-    - utter_bus_fees_h
-    - utter_facility_h
-
-## ask_transport_way_h
-* transport_way_h
-    - utter_transport_way_h
-    - utter_facility_h
-
-## bus_id
-* busid_h
-    - utter_busid_h
-    - utter_applying_id_h
-
 ## bus_id_e
 * bus_id
     - utter_bus_id
@@ -510,10 +354,6 @@
 ## location
 * directions   
     - utter_directions
-
-## ask_location_h
-* location_search_h
-    - utter_direction_h
 
 ## ask_distance
 * distance
@@ -531,10 +371,6 @@
 * concession
     - utter_concession
 
-## facility
-* facility_h
-    - utter_facility_h
-
 ## facilities
 * facility
     - utter_facility
@@ -543,21 +379,11 @@
 * hostel
     - utter_hostel
 
-## locker_facility_h
-* locker_facility_h
-    - utter_locker_facility_h
-    - utter_facility_h
-
 ## locker_facility
 * locker_facility
     - utter_locker_facility
     - utter_facility
     
-## wifi_facility_h
-* wifi_facility_h
-    - utter_wifi_facility_h
-    - utter_facility_h
-
 ## wifi_facility
 * wifi_facility
     - utter_wifi_facility
@@ -578,18 +404,9 @@
     - utter_sports_room
     - utter_facility
 
-## sports_room_h
-* sports_room_h
-    - utter_sports_room_h
-    - utter_facility_h
-
 ## technical events
 * technical_events
     - utter_technical_events
-
-## events_h
-* events_h
-    - utter_events_h
 
 ## event
 * events
@@ -686,15 +503,6 @@
     - utter_food
     - utter_facility
 
-## ask_canteen_h
-* canteen_h
-    - utter_canteen_h
-
-## ask_canteen_menu_h
-* menu_h
-    - utter_canteen_menu
-    - utter_facility_h
-
 ## ask_non_veg
 * non_veg
     - utter_non_veg
@@ -702,14 +510,6 @@
 ## ask_examination
 * examination
     - utter_examination
-
-## ask_examination_h
-* examination_h
-    - utter_examination   
-
-## ask_intake_h
-* intake_h
-    - utter_intake_h
 
 ## about_placement
 * placement
@@ -722,25 +522,6 @@
 ## placed_students
 * placed_student
     - utter_placed_students
-
-## placement
-* placement_h
-    - utter_placement_h
- 
-## placement_details_h
-* placement_detail_h
-    - utter_placement_detail_h
-    - utter_placement_h
-
-## placement_office
-* TPO_h
-    - utter_TPO_h
-    - utter_placement_h
-
-## library_card_h
-* library_card_h
-    - utter_library_card_h
-    - utter_applying_id_h
 
 ## ask_library 
 * ask_library
@@ -758,18 +539,9 @@
 * library_details
     - utter_library_details
 
-## college_id
-* college_id_h
-    - utter_college_id_h
-    - utter_applying_id_h
-
 ## applying_id
 * applying_id
     - utter_applying_id
-
-## applying_id_h
-* applying_id_h
-    - utter_applying_id_h
 
 ## college_age
 * how_old_college
@@ -803,22 +575,6 @@
     - form{"name": "feedback_form"}
     - form{"name": null}
     
-## feed_h + acceptfeed
-* feed_h
-    - utter_ask_feed_h
-* accept
-    - feedback_form
-    - form{"name": "feedback_form"}
-    - form{"name": null}
-    - utter_back
-
-## feed_h + denyfeed
-* feed_h
-    - utter_ask_feed_h
-* deny
-    - utter_no_problem_h
-    - utter_back
-    
 ## ask about
 * askabout
     - utter_sayabout
@@ -842,10 +598,6 @@
 ## askhowdoing
 * ask_howdoing 
     - utter_sayabout
-
-## asklanguages
-* ask_languagesbot
-    - utter_ask_languagesbot
 
 ## askhowold
 * ask_howold
@@ -878,7 +630,7 @@
 ## story1_english_yes
 * start
     - utter_init_chat
-    - utter_ask_lang
+    
 * lang_e
     - utter_ask_details_e
     - user_form
