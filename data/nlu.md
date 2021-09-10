@@ -17,11 +17,20 @@
 
 ## intent:greet
 - hey
+- Hey
+- Hello
 - hello
+- Hi
 - hiiii
 - hi
+- Good Morning
+- Good Eveninig
+- Good Afternoon
+- good afternoon
 - good morning
 - good evening
+- Whats up
+- whats up
 - hey there
 - wassup
 - yo
@@ -43,6 +52,8 @@
 - No
 - Not interested
 - Stop
+- I cant
+- I wont
 - I dont want to share
 - cant provide
 - No details
@@ -51,12 +62,18 @@
 
 ## intent:quote_day
 - quote of the day
+- Quote of the day
+- Quote
 - quote
 - quotes
 
 <!-- Department/Course Related -->
 ## intent:department
 - What are the departments in college?
+- How many departments
+- Branches
+- streams
+- courses
 - Branch provided by college?
 - How many stream provided by college?
 - What stream provided by college?
@@ -66,6 +83,7 @@
 - Does college have ALML department?
 - Does college have DATA ENGINEERING department?
 - Does college has CIVIL department?
+- Does college has EXTC department?
 - departments of college
 - Departmets of College
 - Departments
@@ -87,6 +105,11 @@
 - ASH
 - ash
 - applied science
+- applied science and humanities
+- applied science & humanities
+- First year
+- FY
+- common first year
 
 ## intent:IT
 - what is under course [information technology](IT)
@@ -121,6 +144,7 @@
 - Computer
 - Computer Engineering 
 - computer engineering
+- computer science
 
 ## intent:CIVIL
 - what is under course [Civil Engineering](CIVIL)
@@ -156,6 +180,7 @@
 - Artificial Intelligence
 - Machine Learning
 - Artificial Intelligence and Machine Learning Engineering
+- artificial intelligence & machine learning
 - AI&ML
 - ai&ml
 
@@ -180,6 +205,10 @@
 - Applied Science and Humanities faculty
 - faculty of Applied Science and Humanities
 - applied science and humanities faculty
+- teachers in first year
+- faculties in first year
+- teachers of applied science and humanities
+- professors of applied science and humanities
 
 ## intent:it_faculties
 - faculties of IT department
@@ -188,6 +217,8 @@
 - faculty of information technology
 - IT faculty
 - information technology faculties
+- teachers of IT
+- professors of IT
 
 ## intent:comps_faculties
 - faculties of COMPS department
@@ -196,6 +227,8 @@
 - faculty of computer engineering
 - COMPS faculty
 - computer engineering faculties
+- teachers of comps
+- professors of comps
 
 ## intent:civil_faculties
 - faculties of CIVIL department
@@ -204,6 +237,8 @@
 - faculty of Civil Engineering
 - CIVIL faculty
 - civil engineering faculties
+- teachers of civil
+- professors of civil
 
 ## intent:aiml_faculties
 - faculties of AIML department
@@ -212,6 +247,8 @@
 - faculty of Artificial Intelligence and Machine Learning Engineering
 - AIML faculty
 - artificial intelligence and machine learning engineering faculties
+- teachers of aiml
+- professors of aiml
 
 ## intent:data_faculties
 - faculties of DATA engineering department
@@ -220,12 +257,21 @@
 - faculty of Data Engineering
 - DATA faculty
 - data engineering faculties
+- teachers of data engineering
+- professors of data engineering
 
 ## intent:ash_syllabus
 - syllabus for Applied Science and Humanities department
 - Applied Science and Humanities department syllabus
 - Applied Science and Humanities syllabus
+- first year syllabus
 - syllabus for Applied Science and Humanities
+- subjects in Applied science and humanities
+- subjects in first year
+- subjects in ash
+- modules in first year
+- modules in ash
+- modules in Applied science and humanities
 
 ## intent:it_syllabus
 - syllabus for it department
@@ -235,6 +281,10 @@
 - IT syllabus
 - IT course syllabus
 - information technology syllabus
+- subjects in information technology
+- subjects in it
+- modules in it
+- modules in information technology
 
 ## intent:comps_syllabus
 - syllabus for comps department
@@ -244,6 +294,10 @@
 - COMPS syllabus
 - COMPS course syllabus
 - Computer Engineering syllabus
+- subjects in computer engineering
+- subjects in comps
+- modules in comps
+- modules in computer engineering
 
 ## intent:civil_syllabus
 - syllabus for civil department
@@ -253,6 +307,10 @@
 - CIVIL syllabus
 - CIVIL course syllabus
 - civil engineering syllabus
+- subjects in civil engineering
+- subjects in civil
+- modules in civil
+- modules in civil engineering
 
 ## intent:aiml_syllabus
 - syllabus for aiml department
@@ -262,6 +320,10 @@
 - AIML syllabus
 - AIML course syllabus
 - arificial intelligence and machine learning engineering syllabus
+- subjects in artificial intelligence and machine learning
+- subjects in aiml
+- modules in aiml
+- modules in artificial intelligence and machine learning
 
 ## intent:data_syllabus
 - syllabus for data department
@@ -271,6 +333,10 @@
 - DATA syllabus
 - DATA course syllabus
 - data engineering syllabus
+- subjects in data engineering
+- subjects in data
+- modules in data
+- modules in data engineering
 
 ## intent:it_newsletter
 - newsletter of IT department
@@ -279,6 +345,7 @@
 - newsletter of information technology
 - IT newsletter
 - information technology newsletter
+- magzine of it
 
 ## intent:intake
 - What is the intake of IT/comps/civil/data/AI&ML department?
@@ -303,6 +370,18 @@
 - intake for vacational course
 - How many seats for vacational course
 - How many seats for each department
+- seat count
+- seat count for IT
+- seat count for computer engineering
+- seat count for civil engineering
+- seat count for data engineering
+- seat count for artificial intelligence & machine learning
+- seat count for cloud computing
+- seat count for artificial intelligence & robotics
+- seat count for data analytics
+- seat count for information management & cyber security
+- seat count for vacational course
+- seats
 
 <!-- Admission Related -->
 ## intent:admission_schedule
@@ -321,7 +400,8 @@
 - admission start
 - admission timings
 - i want to know the admission process of the college
-- when admissions will start for AY 20-21
+- when admissions will start for AY 21-22
+- admissions of this year
 - When will online admission start?
 - i want to know the admission process of the college
 - schedule of admission
@@ -329,6 +409,9 @@
 ## intent:admission_documents
 - What are the documents required at the time of admission?
 - required documents for admission
+- docs for admission
+- admission documents
+- Which documents are required for admission?
 - Which documents are required for gujararti speaking minority applicants?
 - Which documents are required for outside maharashtra state applicants?
 - Which documents are required for OBC/ST/SC/NT1/NT2 applicants?
@@ -348,7 +431,14 @@
 - Admission Criteria for students
 - Admission criteria
 - Eligibility Criteria
+- how much marks are necessary for admission
+- how much grades are necessary for admission
+- how much percentage are necessary for admission
 - How much grade require for computer engineering
+- How much grade require for aiml
+- How much grade require for data engineering
+- How much grade require for admission
+- How much grade require for civil
 
 ## intent:diploma_admissions
 - [diploma admission](diploma_admission_schedule) details
@@ -375,26 +465,54 @@
 - diploma
 - Diploma   
 - Diploma Admission
-- Admission
+- admission for diploma students
+- when will admission for diploma students start
+- when will admission for dsy
+- when will admission for direct second year
+- admission for dsy
+- admission for direct second year
 
 ## synonym:diploma_documents
 - diploma documents
 - documents for diploma admission
 - Documents
+- documents required for diploma admission
+- documents required for dsy
+- documents required for direct second year
+- dsy documents
+- direct second year documents
+- documents for admission of diploma students
+- documents for admission of dsy
+- documents for admission of direct second year
 
 ## synonym:diploma_eligibility_criteria
 - diploma eligibility criteria
-- criteria
-- eligibility
-- qualification
+- criteria of diploma admisssion
+- eligibility for diploma admission
+- qualification for diploma admission
+- dsy eligibility criteria
+- criteria of dsy admisssion
+- eligibility for dsy admission
+- qualification for dsy admission
+- direct second year eligibility criteria
+- criteria of direct second year admisssion
+- eligibility for direct second year admission
+- qualification for direct second year admission
+- how much marks are necessary for diploma admission
+- how much marks are necessary for dsy admission
+- how much marks are necessary for direct second year admission
+- how much grades are necessary for diploma admission
+- how much grades are necessary for dsy admission
+- how much grades are necessary for direct second year admission
+- how much percentage are necessary for dsy admission
+- how much percentage are necessary for diploma admission
+- how much percentage are necessary for direct second year admission
 
 ## intent:last_date_admission
 - Date for admission
 - last date for admission
 - last date
-- last date of admission
-- Date for admission
-- last date for admission
+- admission deadline
 
 ## intent:brochure
 - Where can i download Brochure of College
@@ -405,6 +523,8 @@
 - Brochure Download
 - College Prospectus
 - Prospectus
+- ucoe brochure
+- ucoe prospectus
 
 ## intent:dte_code
 - What is the DTE code for universal college of engineering?
@@ -412,9 +532,17 @@
 - DTE Code please
 - DTE code
 - DTE
+- DTE code of ucoe
 
 ## intent:cutoff
-- What is the cut off percentage for IT department?
+- What is the cut off percentage for IT
+- What is the cut off percentage for COMPS
+- What is the cut off percentage for AIML
+- What is the cut off percentage for DATA
+- What is the cut off percentage for CIVIL
+- What is the cut off percentage for EXTC
+- What is the cut off percentage for ASH
+- What is the cut off percentage for first year
 - cutoff 
 - cutoff details
 - cutoff of this year
@@ -457,10 +585,13 @@
 
 ## intent:payment
 - What are the different payment methods through which fees can be paid?
-- Payment methods ?
+- Payment methods
 - Payment options
-- How can i pay fees ?
+- How can i pay fees
 - Ways to pay fees 
+- online payment for fees
+- how to pay fees
+- payment
 
 ## intent:payment_date
 - When is the last date to pay the fees ? 
@@ -468,15 +599,17 @@
 - Fees last day ?
 - Last day for fees payment
 - last day for paying fees
+- daedline for fees
 
 ## intent:scholarship
 - Does college provide any scholarships?
 - Is there any scholarships
 - What about scholarships
-- any scholarships ?
+- any scholarships
 - scholarship details
-- scholarships ?
+- scholarships
 - Is there any schorship u provide
+- scholarship
 
 <!-- Reservation and Minority Related -->
 ## intent:reservation
