@@ -608,8 +608,9 @@
 - any scholarships
 - scholarship details
 - scholarships
-- Is there any schorship u provide
+- Is there any schorship you provide
 - scholarship
+- financial aids
 
 <!-- Reservation and Minority Related -->
 ## intent:reservation
@@ -617,7 +618,11 @@
 - cast reservation is supported
 - OBC, SC/ST
 - obc
+- obc reservation
+- obc priveleges
 - sc st
+- sc st priveleges
+- sc st reservation
 - sc
 - reservation
 - cast
@@ -625,6 +630,9 @@
 - which reservations are there
 - what reservation
 - Does college have reservation
+- casts priveleges
+- what are priveleges for casts
+- EWS
 
 ## intent:minority
 - which minority
@@ -634,6 +642,10 @@
 - minority in college
 - minority
 - college minority
+- linguistic minority
+- religious minority
+- minority privelege
+- minorities
 
 <!-- Transport Related -->
 ## intent:transport_way
@@ -646,20 +658,32 @@
 - Transport available
 - transport
 - other transport available
+- travelling to college
+- how to get to college
+- transportation
+- transport way
+- Whats the best transport system to reach the college
+- Are the roads safe to get to the college
+- How many possible routes are there to reach the campus
 
 ## intent:bus_service
 - Bus service
-- Does college provide bus service?
-- Pickup Point for Bus service?
-- Which is the nearest bus stop from the college? 
-- What is the bus pickup and bus timing?
+- Does college provide bus service
+- Pickup Point for Bus service
+- Which is the nearest bus stop from the college
+- What is the bus pickup and bus timing
 - Bus timing 
 - Can I know about bus service
 - timing for bus
 - timings for bus
 - can i get to know what are the available travelling facilities in the campus
 - travelling facility from campus
-- What is the bus pickup and bus timing?
+- What is the bus pickup and bus timing
+- transportation facility
+- is there bus service available
+- from locations bus is available
+- Does the college provide bus system
+
 
 ## intent:bus_fees
 - How much [fees for bus service](bus_fees)
@@ -679,10 +703,14 @@
 - bus id card
 - how to apply for bus id card
 - [Bus id]{"entity":"busid", "value": "Bus id"}
+- how to apply for bus service
+- is there any id for bus
 
 ## synonym:busid
 - Bus id
 - bus identity
+- bus card
+- bus identity card
 
 ## intent:parking
 - parking
@@ -698,6 +726,10 @@
 - is there any parking space provided for private vehicle
 - vehical parking 
 - parking for vehicle
+- is parking spacious
+- four wheels/car parking
+- motorcycle/bike/two wheels parking
+- parking service
 
 ## intent:concession
 - does college provides concession
@@ -712,6 +744,7 @@
 - concession from college
 - S.T Bus concession
 - local train concession
+- transportation concession
 
 <!-- College Related -->
 ## intent:notices
@@ -757,8 +790,20 @@ update
 - show me campus photos
 - show me college images
 - show me college image
+- show me college pictures
+- show me college pics
 - show me campus photo
-
+- photos
+- pictures
+- pics
+- images
+- college photos
+- college pictures
+- college pics
+- college images
+- how does college looks like
+- college infrastructure
+- infrastructure
 
 ## intent:appraise
 - Wow
@@ -771,13 +816,27 @@ update
 - College is now
 - i like it
 - good
+- loved it
+- too good
+- best
+- awesome
 
 ## intent:more
 - More
 - more photos
 - more images
+- more pics
+- more pictures
+- other photos
+- other images
+- other pics
+- other pictures
+- another photos
+- another images
+- another pics
+- another pictures
 - show me more
-- another image
+- another one
 
 ## intent:principal
 - who is principal
@@ -785,7 +844,6 @@ update
 - principal name
 - name of principal
 - what is the name of principal
-- principle
 - principal
 - name principal
 - principal of college
@@ -796,6 +854,11 @@ update
 - meet Principal
 - Appoinment to meet Principal
 - time to meet Principal
+- headmaster
+- headmistress
+- how to meet principal
+- when is principal present in college
+- principal appointment
 
 ## intent:ucoe
 - what is ucoe
@@ -803,68 +866,110 @@ update
 - ucoe is what
 - what means ucoe
 - ucoe meaning
+- ucoe fullform
+- ucoe abbreviation
 
 ## intent:college_timing
 - What are the college timings?
 - college timings
 - college timing
 - can i get the working hours of the college
+- when is college open
+- when are holidays
+- when is college closed
+- holidays
+- weekend holidays
+- college reporting time
 
 ## intent:anti_ragging
--  What is the anti-ragging policy of the college?
+- What is the anti-ragging policy of the college
 - Anti ragging policy
-- How does college deal with nati ragging
+- How does college deal with ragging
 - How does college deal with anti ragging
+- ragging
+- anti ragging
+- bullying
+- anti bullying
 
 ## intent:academic_calendar
 - Academic Calendar
-- No. of instructional days of even semester year 2019-2020
-- List of holidays in even semester 2019-2020
-- Show the academic calendar for even semester year 2019-2020
+- No. of instructional days of even semester year 2021-22
+- List of holidays in even semester 2021-22
+- Show the academic calendar for even semester year 2021-22
 - Number of holidays
 - List of holidays
-- acadamic calendar for this year
-- acadmic calendar
+- academic calendar for this year
+- academic calendar
 - holiday list
+- academic holidays
+- instructional days
+- how many instructional days
+- how many holidays
 
 ## intent:attendance
-- What are the attendance criteria?
+- What are the attendance criteria
 - attendance criteria in college
 - attendance criteria
 - What is attendance criteria
 - What is the minimum attendance required?
+- how much attendance is required
+- minimum attendance
+- attendance
+- least attendance percentage
+- minimum attendance percentage
+- attendance percentage
 
 ## intent:naac_grade
-- Does college is affiliated with Naac ?
+- Does college is affiliated with Naac
+- is college affiliated to naac
 - What naac grade is college have
 - college is awarded with which grade by naac
 - naac grade
-- nacc
+- naac
 - naac accrediation
 - Naac Accrediation
+- National Assessment and Accreditation Council
+- National Assessment and Accreditation Council grade
+- National Assessment and Accreditation Council accrediation
 
 ## intent:college_type
-- is college aided ?
-- is college unaided ?
+- is college aided
+- is college unaided
+- is college autonomous
 - aided
 - unaided
 - what type of college is
 - aided college or unaided
 - college type
+- autonomous
 
 ## intent:affiliated
 - is college affiliated with MU
 - is college affiliated with Mumbai University
-- college affiliated with MU ?
-- mumbai university affiliated ?
+- college affiliated with MU
+- mumbai university affiliated
 - affliated with MU
+- college affiliation
+- which university college is affiliated to
+- is college affiliated to pune university
+- college is affiliated to which university
+- affiliation
+- affiliated
+- mumbai university
+- mumbai university affiliation
 
 ## intent:course_duration
 - what is course duration
 - duration of course
 - Duration of IT Course
 - Duration of comps course
+- Duration of aiml course
+- Duration of data course
+- Duration of civil course
 - duration of the course
+- duration of courses
+- how many years for courses
+- 4 years or 3 years for be
 
 ## intent:ict_classroom
 - how this college implement ICT tools in teaching and learning
@@ -872,15 +977,28 @@ update
 - ICT implementation in college
 - ICT implementation
 - Are you update with latest equipment
+- information communication technology classrooms
+- technology tools
+- technology tools in classroom
+- ict
+- information communication technology
+- technical tools in classroom
 
 ## intent:ac_classroom
 - Does College have AC classrooms
-- ac classroom available ?
-- there are any AC classrooms ?
+- ac classroom available
+- there are any AC classrooms
 - ac classroom available
 - ac classroom
 - ac room
 - Does the college is fully air conditioned
+- air conditioner
+- air conditioned classroom
+- are classrooms air conditioned
+- ac avaialblity
+- ac clasrooms avaialblity
+- is college fully air conditioned
+- is college air conditioned
 
 ## intent: faculty_name
 - hod of IT
@@ -889,13 +1007,25 @@ update
 - hod of each departments
 - who is the hod of each departments
 - list of faculty
+- teachers
+- professors
+- hods
+- hod
+- hod of first year
+- hod of ASH
+- list of teachers
+- list of professors
+- list of hods
 
 ## intent:college_reopen
-- when will the college reopen?
-- when will college resume?
-- when will college restart?
+- when will the college reopen
+- when will college resume
+- when will college restart
 - when will college open
 - when will college resume
+- college reopening
+- when will college start
+- when will college start offline
 
 ## intent:applying_id
 - Where to apply for [college id](collegeid)
@@ -916,6 +1046,10 @@ update
 - College id
 - college identity
 - College identity
+- students id
+- students identity card
+- id card
+- identity card
 
 ## intent:about_college
 - College information
@@ -925,10 +1059,16 @@ update
 - About college
 - Details about College
 - I want to know about college
+- college details
+- ucoe details
+- more details of college
+- more information of college
+- about ucoe
 
 <!-- College Facility -->
 ## intent:facility
 - What are facility available in college
+- What are facilities available in college
 - Facility provided by college
 - facility
 - facilities
@@ -938,21 +1078,37 @@ update
 - available facility
 - can i get to know what are the available travelling facilities in the campus
 - What all facilities do you have
+- list of facilities
+- list of facilities provided by college
+- college facilities
+- ucoe facilities
+- special facilities
+- privileges
 
 ## intent:hostel
-- Is there any hostel or staying facility available in or near the college?
+- Is there any hostel or staying facility available in or near the college
 - does college have hostel
 - does college provide accomodation
 - Hostel in College
 - Girls hostel
 - Boys hostel
 - Hostel Facility in college
+- Are there are rooms to stay on rent around the campus
+- college hostel
+- hostel
+- is hostel available
+- hostel facility
 
 ## intent:locker_facility
 - Is [locker](facility_type) facility provided?
 - Does college has [lockers](facility_type)
 - Does college provide [lockers](facility_type)
 - [Locker](facility_type) Facility in College
+- lockers avilable
+- lockers
+- lockers facility available
+- storage facility
+- are there lockers available
 
 ## intent:wifi_facility
 - Does college provide [wifi](facility_type)?
@@ -960,6 +1116,9 @@ update
 - [wifi](facility_type) facility in college
 - how to connect to college [wifi](facility_type)
 - [wifi](facility_type) facility
+- wifi
+- internet facilities
+- internet facilities in college
 
 ## intent:bcr_facility
 - Does college has [bcr](facility_type)
@@ -972,8 +1131,10 @@ update
 - does college have [bcr](facility_type) in campus
 - [Boys common room](facility_type)
 - Boys room
+- Boys common room
 - Common room for boys and girls
 - What are the facilities for boys and girls
+- is bcr spacious
 
 ## intent:gcr_facility
 - Does college has [gcr](facility_type)
@@ -986,7 +1147,9 @@ update
 - does college have [gcr](facility_type) in campus
 - [Girls common room](facility_type)
 - Girls room
+- girls common room
 - Common room for [boys and girls](facility_type)
+- is gcr spacious
 
 ## intent:sports_room
 - Does college has [sports](facility_type) room
@@ -996,12 +1159,16 @@ update
 - [outdoor sports]{"entity":"facility_type", "value":"sports"}
 - Does college has [indoor and outdoors sports]{"entity":"facility_type", "value":"sports"} facility
 - Can you tell me about [sports room](facility_type)
+- sports room
+- which facilities are there for sports
+- which sports are played in college
 
 ## synonym:facility_type
 - Locker
 - lock
 - WIFI
 - wifi
+- internet
 - bcr
 - BCR
 - Bcr
@@ -1013,6 +1180,7 @@ update
 - indoors
 - games
 - Games
+- playground
 
 <!-- College Activities -->
 ## intent:extra_activities
@@ -1022,6 +1190,7 @@ update
 - [extra activities](activities)
 - [Extra Curricular activies](activities) in college
 - can you tell about the [extra curricular activities](activities) 
+- activities held in college 
 
 ## intent:csi
 - what is [csi](activities)
@@ -1077,6 +1246,8 @@ update
 - what is [student council](activities)
 - [student council](activities)
 - [Student Council](activities)
+- students group
+- is there any group for students
 
 ## intent:speak_club
 - what is [Speak Club](activities)
@@ -1091,6 +1262,9 @@ update
 - what is [women development cell](activities)
 - [women development cell](activities)
 - [Women Development Cell](activities)
+- special groups for female students
+- special groups for girls
+- special groups for women
 
 <!-- Events Related -->
 ## intent:technical_events
@@ -1100,6 +1274,10 @@ update
 - technical events at UCoE
 - what are technical events conducted 
 - technical events organized at college
+- list of technical events
+- events for technology
+- does college organize technical events
+- are there any technical events
 
 ## intent:events
 - what events are held
@@ -1111,11 +1289,19 @@ update
 - Events at UCoE
 - How many events
 - College festivals
+- competitions
+- competitions held in college
+- list of events
+- college functions
+- functions in college
+- functions held in college
 
 ## intent:hackstomp_date
 - When is hackstomp scheduled?
 - when is hackstomp?
 - When hackstomp gets scheduled
+- hackstomp deadline
+- hackathon dates
 
 ## intent:hackstomp
 - What is hackstomp?
@@ -1123,6 +1309,11 @@ update
 - Does college organised hackathon?
 - what happens in hackstomp
 - hackstomp details
+- hackathon
+- is there any hackathon in college
+- does college organize hackathon
+- how is hackstomp held
+- hackstomp rules
 
 ## intent: IETE
 - what is IETE
@@ -1137,6 +1328,7 @@ update
 - when is IETE?
 - iete date
 - iete schedule
+- iete deadline
 
 ## intent:vyro
 - VYRO
@@ -1146,12 +1338,20 @@ update
 - VYro what
 - details of Vyro
 - vyro
+- vyro stands for
+- vyro fullform
+- rules for vyro
+- vyro rules
+- is vyro inter-college
+- intercollege events held by college
 
 ## intent:vyro_schedule
 - When is vyro going to be held? 
 - when is vyro ?
 - vyro date
 - vyro schedule
+- vyro deadline
+- vyro registration
 
 ## intent:aurora_schedule
 - When is AURORA scheduled?
@@ -1162,6 +1362,8 @@ update
 - aurora date
 - sport schedule
 - aurora schedule
+- aurora deadline
+- aurora registration dates
 
 ## intent:aurora
 - what is aurora
@@ -1171,6 +1373,8 @@ update
 - Aurora details
 - aurora what
 - Aurora
+- intra college events
+- is aurora intra college event
 
 ## intent:tantrostav
 - what is tantrostav
@@ -1179,7 +1383,9 @@ update
 - tantrostav details
 - tantrostav what
 - tantrostav
-
+- is tantrotsav intercollege event
+- intercollege technical events
+- intercollege technical events in college
 
 <!-- Canteen Related -->
 ## intent:canteen
@@ -1197,15 +1403,15 @@ update
 - does canteen provide chips
 - chips
 - Lays,bingo,kurkure,balaji
-- Which beverages are provided?
+- Which beverages are provided
 - Beverages
 - drinks 
 - soft drinks
-- which soft drinks you have ?
-- Soda can ?
-- Juice Bottle ?
-- Buttermilk is available ?
-- Can i get juice ?
+- which soft drinks you have
+- Soda can
+- Juice Bottle
+- Buttermilk is available
+- Can i get juice
 - What is availabe to quench my thirst ?
 - Does college provide meals? 
 - What is available in college canteen
@@ -1213,9 +1419,15 @@ update
 - what it is in canteen
 - what i can purchase from canteen
 - canteen facility
+- food
+- food in college
+- is there any canteen in college
+- lunch
+- tea
+- water
 
 ## intent:food
-- What is today’s menu? 
+- What is today’s menu
 - Canteen Menu
 - Today's Menu
 - Menu
@@ -1224,15 +1436,21 @@ update
 - evening snacks menu
 - canteen menu
 - can i get lunch menu
+- whats in food
 
 ## intent:non_veg
-- Does college provide nonveg food?
-- Is non veg food is available ?
-- Canteen have Non Veg food ?
+- Does college provide nonveg food
+- Is non veg food is available
+- Canteen have Non Veg food
 - can i get chicken here
-- canteen have chicken, fish, mutton ?
+- canteen have chicken, fish, mutton
 - non-veg
 - non veg food
+- nonveg
+- is nonveg food allowed in college
+- can we get fish in college
+- is pescatarian food available
+- can we get egg based food
 
 <!-- Location Related -->
 ## intent:directions
@@ -1270,6 +1488,11 @@ update
 - where is ucoe
 - Can i get location of college 
 - direction of college
+- directions for college
+- How many possible routes are there to reach the campus
+- coordinates of college
+- address of college
+- how to reach college
 
 ## intent:distance
 - What is the distance of college from Borivali
@@ -1278,6 +1501,7 @@ update
 - What is the distance of college from Thane
 - What is the distance of college from Bhiwandi
 - What is the distance of college from Kaman
+- What is the distance of college from Mumbai
 - What is the distance of college from Chinchoti
 - How far college is from Borivali
 - How far college is from Vasai
@@ -1285,12 +1509,22 @@ update
 - How far college is from Thane
 - How far college is from Bhiwandi
 - How far college is from Kaman
+- How far college is from Mumbai
 - How far college is from Chinchoti
+- How much time does it take to reach from mumbai
+- How much time does it take to reach from bhiwandi
+- How much time does it take to reach from vasai
+- How much time does it take to reach from thane
+- How much time does it take to reach from naigaon
+- How much time does it take to reach from chinchoti
+- How much time does it take to reach from kaman
+- How much time does it take to reach from borivali
 - Distance from Borivali
 - Distance from Vasai
 - Distance from Naigaon
 - Distance from Thane
 - Distance from Bhiwandi
+- Distance from Mumbai
 - Distance from Kaman
 - Distance from Chinchoti
 
@@ -1301,20 +1535,33 @@ update
 - Name the nearest station
 - nearest station from college
 - nearest station
+- is vasai the nearest station from college
+- how much far is nearest station
+- nearest railway station
+- is kaman station nearest to college
+- how much far is kaman station from college
+- how much far is chinchoti station from college
 
 <!-- Examination Related -->
 ## intent:examination
 - When will the semester examinations for year FE/SE/TE/BE begin?
-- When Sem is starting
-- When is the final exam ?
-- Final Exam ?
-- when FE have final Exam ?
+- When Semester is starting
+- When is the final exam
+- Final Exam
+- when FE have final Exam
 - Final Exam Dates please
 - examination details 
+- when will exam end
+- semester dates
+- exam schedule
+- semester schedule
+- exam details
+- semester details
+- how are exams held in college
 
 ## intent:grading_query
-- What is a credit allocation scheme?
-- What are the passing criteria?
+- What is a credit allocation scheme
+- What are the passing criteria
 - Number of ATKT allowed for next semester
 - Tell me something about grading system
 - credit system
@@ -1324,6 +1571,10 @@ update
 - maximum numbers of KT allowed?
 - how in grading invaluated
 - grading system
+- rubrics of college
+- how are students graded
+- what are credits
+- rubrics system
 
 <!-- Library Related -->
 ## intent:ask_library
@@ -1335,15 +1586,22 @@ update
 - any library in college
 - library facility
 - how do i get information of library
-- library facliity
+- library faciliity
 - Library
+- who is librarian
+- librarian
+- name of the library
+- archivia
+- on which floor library is
+- resources in library
 
 ## intent:library_details
-- How many library cards does college provide?
-- Is there any fine if a student returns the book after the due date?  
-- What is the maximum duration for which a book is issued?
+- How many library cards does college provide
+- Is there any fine if a student returns the book after the due date
+- What is the maximum duration for which a book is issued
 - fine for late book return
 - how many books can be issued
+- how many books can i issue
 - maximum numbers for books issued
 - books issued
 - fine 
@@ -1351,6 +1609,8 @@ update
 - how many books can be issued
 - fine for books
 - Library details
+- how to issue books
+- timelimit for returning a book
 
 ## intent:library_timings
 - Library timing
@@ -1360,9 +1620,11 @@ update
 - timings for library
 - timing for students in library
 - what are library timings
+- when is library open
+- when can i issue a book
 
 ## intent:library_card 
-- How can I apply for a library card ?
+- How can I apply for a library card
 - apply library card
 - how apply for library card
 - how can i get library card
@@ -1370,6 +1632,9 @@ update
 - library card procedure
 - Apply for library card
 - Apply for Library Card
+- how many library card can i get
+- how to get library card
+- application for library card
 
 <!-- Placement Related -->
 ## intent:placement
@@ -1380,6 +1645,8 @@ update
 - tell me about placement details
 - placements
 - placement
+- placement criteria
+- how students are placed
 
 ## intent:placement_companies
 - how many companies come for placements 
@@ -1387,6 +1654,8 @@ update
 - company
 - companies
 - which companies in college for placement
+- placement companies
+- placement firms
 
 ## intent:placed_student
 - how many students got placed
@@ -1395,6 +1664,7 @@ update
 - students placed
 - students placed in IT
 - students placed from Comps
+- previous year placements
 
 <!-- Bot Related -->
 ## intent:thankyou
@@ -1403,6 +1673,11 @@ update
 - thank you
 - thx
 - thanks very much
+- tysm
+- TYSM
+- thak you so much
+- thnx
+- ty
 
 ## intent:goodbye
 - Bye
@@ -1416,7 +1691,11 @@ update
 - see you later
 - have a good day
 - so long
-- good by
+- good bye
+- sayonara
+- by
+- cya
+- see ya
 
 ## intent:bot_challenge
 - bot
@@ -1442,6 +1721,10 @@ update
 - how old college is
 - college age
 - college years
+- college since
+- ucoe establishment
+- college establishment
+- when was college established
 
 ## intent:founder
 - who is founder of college
@@ -1454,11 +1737,15 @@ update
 - Chairman of college
 - chairman of ucoe
 - who is the chairman
+- who established college
+- who founded ucoe
 
 ## intent:who_are_you
-- what is your name bot?
+- what is your name bot
 - what is your name
-- who are you ?
+- who are you
+- what should i call you
+- whats your name
 
 ## intent:ok
 - k
@@ -1470,6 +1757,7 @@ update
 - kk
 - Okay
 - okazzz
+- 👍
 
 ## intent:what_else
 - What else can you help us with
@@ -1477,13 +1765,16 @@ update
 - What can you do help
 - What else can you help
 - How can you help me
-- what else 
+- what else
+- what else can you do
+- what more
 
 ## intent:askwork
-- What you do ?
-- What's this ?
-- What can you do ?
-- What is your job ?
+- What you do
+- Whats this
+- What can you do
+- What is your job
+- what do you do
 
 ## intent:ask_restaurant
 - restaurants
@@ -1716,6 +2007,7 @@ update
 - You live around here?
 - Where are you from
 - where you live
+- do you live in college
 
 ## intent:telljoke
 - joke
@@ -1740,14 +2032,14 @@ update
 - Could you tell me a joke.
 - Would you share a joke with me.
 - Could you please share a joke with me.
-- Make me laugh.
+- Make me laugh
 - Tell me something funny.
 - Entertain me with a joke.
 - Tell me something that you think will make me laugh.
 - I want to hear something funny.
 - Give me some comic relief.
-- Can you tell a joke?
-- Know any jokes?
+- Can you tell a joke
+- Know any jokes
 - Come up with a joke you think I'll find funny.
 - Let's hear a joke from you.
 - say a joke that's funny
@@ -1760,7 +2052,11 @@ update
 - say a joke that's so bad it's funny
 - make me laugh with a bad joke
 - give me a good joke
-- you can say a jok
+- you can say a joke
+- do comedy
+- komedi pliz
+- lets have fun
+- tell a joke
 
 ## intent:handleinsult
 - you're a loser lmao
@@ -1814,6 +2110,15 @@ update
 - bitch
 - fuck u
 - idiot
+- moron
+- dumbass
+- shithead
+- chutiye
+- chutiya
+- bsdk
+- bc
+- mc
+- just die
 - deal with my ass, you bitch
 - you son of a bitch
 - shut up asshole
@@ -1848,6 +2153,7 @@ update
 - yes
 - thats right
 - yeah
+- yup
 
 ## intent:ask_time
 - what is the current time?
@@ -1959,6 +2265,7 @@ update
 - how old are you
 - How old are you?
 - how old are u
+- whens your birthday
 
 ## intent:ask_whoami
 - Who am I?
@@ -1987,6 +2294,7 @@ update
 - can you tell me what my identity is?
 - can you tell me who I am?
 - who am i
+- who am i to you
 
 ## intent:ask_whatismyname
 - what is my name?
@@ -2027,6 +2335,8 @@ update
 - What is my full name?
 - What do people call me?
 - What exactly is my name?
+- my name is
+- whats my name
 
 ## intent:ask_howdoing
 - Ahoy matey how are you?
@@ -2114,6 +2424,8 @@ update
 - Hows it going
 - come stai?
 - How you doing?
+- howdy
+- you fine
 
 ## intent:ask_weather
 - How is the weather today?
@@ -4135,21 +4447,32 @@ update
 - college id form
 - lost id form
 - id card form
+- how to apply for id
+- application of id card
+- where to get id
 
 ## intent:change_name
 - name change
 - name is wrong
 - change my name
 - change in name
+- please change my name
+- change name
+- name issue
 
 ## intent:change_stream
 - stream change
 - stream is wrong
 - change my stream
 - change in stream
+- stream issue
+- please change my stream
 
 ## intent:change_sem
 - semester change
 - semester is wrong
 - change my semester
 - change in semester
+- semester not right
+- please change my semester
+- semester issue
