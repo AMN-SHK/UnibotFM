@@ -1017,7 +1017,7 @@ responses:
       image: "https://universalcollegeofengineering.edu.in/wp-content/uploads/2019/07/vyro-1.jpg"
   
   utter_aurora_schedule:
-    - text: "AURORA is scheduled from 11th January 2020 - 18th January 2020."
+    - text: "AURORA is scheduled from 11th January - 18th January."
 
   utter_aurora:
     - text: 'AURORA is sports and cultural intra college competition held in college 🏆. Here there is competition for shield between the departments.'
