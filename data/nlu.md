@@ -692,26 +692,6 @@
 - [fees for bus](bus_fees)
 - [bus fees](bus_fees) structure  
 
-## intent:bus_id
-- Where to apply for [bus id](busid)
-- Where to apply for [bus id](busid) card
-- [bus id](busid)
-- where to get [bus id](busid) from
-- I want a new [bus id](busid)
-- Where can i apply for new [bus identity]{"entity": "busid", "value": "bus identity"} card
-- Apply for [bus id](busid) card
-- bus id card
-- how to apply for bus id card
-- [Bus id]{"entity":"busid", "value": "Bus id"}
-- how to apply for bus service
-- is there any id for bus
-
-## synonym:busid
-- Bus id
-- bus identity
-- bus card
-- bus identity card
-
 ## intent:parking
 - parking
 - does college provide parking facility
@@ -747,26 +727,6 @@
 - transportation concession
 
 <!-- College Related -->
-## intent:notices
-- [Notice](notice)
-- [show me notice]{"entity": "notice", "value": "notice"}
-- College [Notice](notice)
-- [revaluation notice]{"entity": "notice", "value": "notice"}
-- [Latest notice]{"entity": "notice", "value": "notice"}
-- Latest [Notice](notice)
-- [Latest updates]{"entity": "notice", "value": "updates"}
-- [Latest update]{"entity": "notice", "value": "update"}
-- Examination [Notice](notice)
-- [Examination notice]{"entity": "notice", "value": "notice"}
-- [Examination updates]{"entity": "notice", "value": "updates"}
-- [atkt notice]{"entity": "notice", "value": "notice"}
-- ATKT [Notice](notice)
-
-## synonym:notice
-notice
-notices
-updates
-update
 
 ## intent:images
 - show me picture
@@ -4432,12 +4392,16 @@ update
 
 ## intent:stream
 - [Information Technology](stream)
-- [Computer Science](stream)
+- [Computer Engineering](stream)
+- [Artificial Intelligence & Machine Learning](stream)
+- [Data Engineering](stream)
 - [EXTC](stream)
 - [ETRX](stream)
 - [Civil](stream)
 - [information technology](stream)
-- [computer science](stream)
+- [computer engineering](stream)
+- [artificial intelligence & machine learning](stream)
+- [data engineering](stream)
 - [extc](stream)
 - [etrx](stream)
 - [civil](stream)

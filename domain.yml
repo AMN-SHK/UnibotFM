@@ -355,13 +355,13 @@ slots:
 responses:
   utter_init_chat:
     - text: "Hi! Welcome to Universal Collge of Engineering, I am <b>UniBot</b> 😊, I can help you with Admission Related queries, College, Location, Events, Facilities and many more.. <br> <b> To see the video of college - </b> <a href =' https://youtu.be/fMRARRQLARk ' target = '_blank'> click here </a>"
-      image: "https://i.imgur.com/uyahBhx.jpg"  
+      image: "https://universalcollegeofengineering.edu.in/wp-content/uploads/2019/07/UCoE-Build-2.jpg"  
       
   utter_ask_details_e:
     - text: "Before we start please enter your details."
   
   utter_ask_feed:
-    - text: "It was a pleasure talking to you 😊. I would really appreciate it if you can rate the conversation."
+    - text: "It was a pleasure talking to you. I would really appreciate it if you can rate the conversation."
       buttons:
       - title: "Yes"
         payload: '/accept'
@@ -372,13 +372,13 @@ responses:
     - text: "Please Enter Your Full Name."
 
   utter_ask_phone:
-    - text: "Please enter your Phone Number 📞 "
+    - text: "Please enter your Phone Number"
 
   utter_ask_email:
-    - text: "Please Enter Your Email 📧 "
+    - text: "Please Enter Your Email"
 
   utter_ask_feedback:
-    - text: "It was a pleasure talking to you 😊. I would really appreciate it if you can rate our conversation from <b>0-5</b> "
+    - text: "It was a pleasure talking to you. I would really appreciate it if you can rate our conversation from <b>0-5</b> "
   
   utter_ask_otp:
     - text: "Please Enter OTP received in your Mobile Phone "
@@ -388,8 +388,12 @@ responses:
       buttons:
       - title: "Information Technology"
         payload: "Information Technology"
-      - title: "Computer Science"
-        payload: "Computer Science"
+      - title: "Computer Engineering"
+        payload: "Computer Engineering"
+      - title: "Artificial Intelligence & Machine Learning"
+        payload: "Artificial Intelligence & Machine Learning"
+      - title: "Data Engineering"
+        payload: "Data Engineering"
       - title: "EXTC"
         payload: "extc"
       - title: "ETRX"
@@ -435,7 +439,7 @@ responses:
     - text: "Invalid, Only give rating from <b>0-5</b>."
 
   utter_default:
-    - text: "Sorry, I didn't understand 😅, can you please rephrase your sentence."
+    - text: "Sorry, I didn't understand, can you please rephrase your sentence."
 
   utter_no_problem_e:
     - text: "No Problem!"
@@ -464,7 +468,7 @@ responses:
         payload: '/change_sem'
 
   utter_id_application_accept:
-    - text: "You can collect your id from computer lab within 7 days"
+    - text: "For details contact us on ------- from Monday to Friday between 9:30 am to 4:30 pm."
 
 
   utter_greet_e: 
@@ -487,15 +491,7 @@ responses:
         payload: '/notices'
       - title: "Quote of the Day"
         payload: '/quote_day'
-      
-
-  utter_quote_day:
-    - text: " Never fear shadows. They simply mean there's a light shining somewhere nearby " 
-
-  utter_notices:
-    - text: '<b>NOTICES:</b><br><a href ="https://docdro.id/zmsbItz" target="_blank">COVID NOTICE</a><br> 
-              <a href="https://docdro.id/Y8ggVAB" target="_blank">Pre-Admission Notice</a>'
-
+    
   utter_directions:
     - text: 'Near Bhajansons & Punyadham,Kaman Bhiwandi Road,Vasai, Palghar-401208.
              <br> Contact Number:<br> +91 840 7979 167 <br> +91 800 7090 722 
@@ -517,14 +513,11 @@ responses:
         payload: '/transport_way'
 
   utter_bus_fees:
-    - text: "Fees Structure for Bus Service is :<br> 1. Borivali - ₹ 20000/-<br> 
-             2. Vasai - ₹ 18500/-<br> 3. Thane - ₹ 19000 /-<br> 4. Golden Nest - ₹ 18000 /- "
+    - text: "For details contact us on: <br> +91 840 7979 167 <br> +91 800 7090 722 
+             <br> +91 800 7478 659 <br> from Monday to Friday between 9:30 am to 4:30 pm. "
       buttons:
       - title: "Other Transport"
         payload: '/transport_way'
-
-  utter_bus_id:
-    - text: "You can apply for bus ID card in Admin Office by submitting a copy of your Bus Fees Reciept"
 
   utter_department:
     - text: "<b>Departments available college are:</b><br> <b> Duration of Program: 
@@ -549,35 +542,22 @@ responses:
         payload: '/DATA'
 
   utter_ASH:
-    - text: "At the forefront of the other disciplines of engineering studies,
-           <b>Applied Science and Humanities Department</b> with a dedicated team 
-           of highly qualified and experienced professionals is committed to serve 
-           the needs of various branches of Engineering by providing a favourable 
-           environment which motivates students to utilise their fullest possible 
-           potential for self-development in various aspects of life.The Department 
-           promotes the applied nature of Sciences and Humanities to develop a 
-           sustainable foundation as part of the Engineering Education.
-           <br>The department prepares students for core engineering branches by 
-           educating them in the basic sciences of <b>physics</b>, <b>chemistry</b>, 
-           <b>mathematics</b>, <b>Engineering Mechanics</b> and <b>Engineering Drawing</b> 
-           in the <b>first year</b>.<br> Environmental studies make our students stewards 
-           of the environment that sustains us, our families and communities now and in the 
-           future. The <b>English Communication skills</b>, which are an integral part of 
-           the syllabus, strive to produce graduates of international repute with 
-           <b>effective communication skills</b>, <b>soft skills</b> and <b>interpersonal 
-           skills</b> and promote a commendable transformation when they are ready to face 
-           the placements."
+    - text: "The department of Applied Science and Humanities is committed to 
+             dynamically integrate the components of sciences, humanities and 
+             engineering to groom the students to become globally acknowledged 
+             professionals."
       buttons:
         - title: "List of Applied Science & Humanities Faculties"
           payload: '/ash_faculties'
         - title: "Applied Science & Humanities Syllabus"
           payload: '/ash_syllabus'
+        - title: "Latest ASH e-Newsletter"
+          payload: '/ash_newsletter'
 
   utter_IT:
-    - text: "The department of Information and Technology aspire to establish a 
-             system of Quality Assurance on continuous basis, evaluate and monitor 
-             teaching-learning process. Universal college has excellent connections 
-             with IT Companies based in Mumbai, Bangalore, Hyderabad and Gurgaon.
+    - text: "Impart quality education to create world-class technocrats and 
+             entrepreneurs with new ideas and innovations to meet industry 
+             expectations and uplifting human lives.
              <br><b>Total Number of Seats:</b> 60   
              <br><b>CAP:</b> 48    
              <br><b>Institute Level:</b> 12 "
@@ -590,11 +570,9 @@ responses:
           payload: '/it_newsletter'
 
   utter_COMPS:
-    - text: "Computer Engineers contribute enormously to the progress of modern human 
-             life. It is computer Engineers who enhance the efficiency of power distribution 
-             networks, build the next-generation stock market platform, design robots with 
-             artificial intelligence, build scalable data warehouses that power search 
-             engines and allow a grandfather to video-chat with his grandkids over Skype.
+    - text: "To be recognised globally as a department provides quality 
+             technical education that eventually caters to helping and serving 
+             the community.
              <br><b>Total Number of Seats:</b> 120
              <br><b>CAP:</b> 96 
              <br><b>Institute Level:</b> 24"   
@@ -603,20 +581,15 @@ responses:
           payload: '/comps_faculties'
         - title: "COMPS Syllabus"
           payload: '/comps_syllabus'
+        - title: "Latest COMPS e-Newsletter"
+          payload: '/comps_newsletter'
 
   utter_CIVIL:
-    - text: "Civil engineers develop a full range of skills in design, analysis, 
-            fabrication, management, and teamwork. Students are broadly trained and 
-            able to deal with the latest technologies. The growing panoply of sensors, 
-            instrumentation, intelligent facilities and new materials highlight the 
-            high-tech character of the discipline, creating new educational challenges 
-            and redefining the skill set that civil and environmental engineers need to 
-            succeed. Our laboratories for the Civil stream are fully equipped to help 
-            students assimilate the concepts holistically, hands-on.<br>A rare feature 
-            in engineering colleges is a wind tunnel. A wind tunnel is a tool used in 
-            aerodynamic research to study the effects of air moving past solid objects. 
-            Our College has set up of Wind tunnel for Civil engineering department. 
-            This set up is used to study of wind effect on design of building.
+    - text: "To excel in every area of civil engineering and inculcate 
+             research-oriented study to explore hidden talent.
+            <br>To provide opportunity to display creativity, out-of–the-box 
+            thinking and innovativeness, all aimed at providing cutting edge 
+            technology for sustainable development.
             <br><b>Total Number of Seats:</b> 60
             <br><b>CAP:</b> 96 
             <br><b>Institute Level:</b> 24"
@@ -625,53 +598,54 @@ responses:
           payload: '/civil_faculties'
         - title: "CIVIL engineering Syllabus"
           payload: '/civil_syllabus'
-  
+        - title: "Latest CIVIL e-Newsletter"
+          payload: '/civil_newsletter' 
+
   utter_AIML:
-    - text: "Artificial Intelligence presents a solid foundation in the principles and 
-              technologies that underlie many facets of AI, including logic, knowledge 
-              representation, probabilistic models, and machine learning. It teaches you to <br> 
-              <b>1.</b>Examine logic and reasoning methods from a computational perspective <br>
-              <b>2.</b>Learn about agent, search, probabilistic models, perception and cognition, and machine learning <br>
-              <b>3.</b>Learn about state of the art technologies like Deep learning, Human Computer Interaction and Augmented Reality. <br>
-              <b>Total Number of Seats:</b> 120"
+    - text: "To be a department focused on quality education and research in 
+             Artificial Intelligence & Machine Learning that prepares early 
+             professionals contributing to serve the society.
+            <b>Total Number of Seats:</b> 120"
       buttons:
-        - title: "List of AIML Engineering Faculties"
-          payload: '/aiml_faculties'
-        - title: "AIML Syllabus"
-          payload: '/aiml_syllabus'
+        - title: "AIML Newsletter"
+          payload: '/aiml_newsletter'
+        - title: "Why join AIML?"
+          payload: '/aiml_reason'
   
   utter_DATA:
-    - text: "The exponential growth of data generated by machines and humans 
-            present unprecedented challenges and opportunities. From the analysis 
-            of this <b>“big data”</b>, businesses can learn key insights about 
-            their customers to make informed business decisions.<br>Scientists 
-            can discover previously unknown patterns hidden deep inside the 
-            mountains of data.<br>In this program, students will learn key 
-            techniques used to design and build big data systems and gain 
-            familiarity with data-mining and machine-learning techniques that are 
-            the foundations behind successful information search, predictive 
-            analysis, smart personalization, and many other technology-based 
-            solutions to important problems in business and science.
+    - text: "To build a learning and research environment in the field of 
+             Data Engineering that promotes learning towards betterment of the 
+             society.
             <br><b>Total Number of Seats:</b> 60"
       buttons:
-        - title: "List of DATA Engineering Faculties"
-          payload: '/data_faculties'
-        - title: "DATA Engineering Syllabus"
-          payload: '/data_syllabus'
+        - title: "DATA Engineering Newsletter"
+          payload: '/data_newsletter'
+        - title: "Why Join Data Engineering?"
+          payload: '/data_reason'
 
   utter_ash_faculties:
-    - text: ''
+    - text: "<b><u>ASH-FACULTIES:</u></b><br>
+             - <b>Prof. Shivam Shukla, Head of the Department.</b><br>
+             - Prof. Aniket Patil, Assistant Professor.<br>
+             - Prof. Neha shah, Assistant Professor.<br>
+             - Prof. Nitesh Chaubey, Assistant Professor.<br>
+             - Prof. Masiyuddin Khan, Assistant Professor.<br>
+             - Prof. Marina Thomas, Assistant Professor.<br>
+             - Prof. Teena Trivedi, Assistant Professor.<br>
+             - Prof. Damini Bhuva, Assistant Professor.<br>
+             - Prof. Komal Jain, Assistant Professor."
       buttons:
       - title: "Applied Science and Humanties Syllabus"
         payload: '/ash_syllabus'
+      - title: "Latest ASH e-Newsletter"
+        payload: '/ash_newsletter'
 
   utter_it_faculties:
     - text: " <b><u>IT-FACULTIES:</u></b><br>
-             - <b>Prof. Yogita Mane, Head of the Department</b>.<br>
+             - <b>Prof. Yogita Mane, Head of the Department.</b><br>
              - Prof. Allan Lopes, Assistant Professor.<br>
              - Prof. Jigar Chauhan, Assistant Professor.<br>
              - Prof. Mudra Doshi, Assistant Professor.<br>
-             - Prof. Megha Naik, Assistant Professor.<br>
              - Prof. Rovina D’britto, Assistant Professor.<br>
              - Prof. Akshay Agrawal, Assistant Professor.<br>
              - Prof. Sanketi Raut, Assistant Professor."
@@ -682,38 +656,51 @@ responses:
         payload: '/it_newsletter'
 
   utter_comps_faculties:
-    - text: ''
+    - text: " <b><u>COMPS-FACULTIES:</u></b><br>
+             - <b>Prof. Jitendra Saturwar, Head of Department.</b><br>
+             - Prof. Chinmay Raut, Assistant Professor.<br>
+             - Prof. Kanchan Dabre, Assistant Professor.<br>
+             - Prof. Ashraf Siddiqui, Assistant Professor.<br>
+             - Prof. Sridhar Iyer, Assistant Professor.<br>
+             - Prof. Poonam Thakre, Assistant Professor.<br>
+             - Prof. Sharvari Patil, Assistant Professor.
+             - Prof. Hezal Lopes, Assistant Professor.
+             - Prof. Vishakha Shelke, Assistant Professor.
+             - Prof. John Kenny, Assistant Professor.
+             - Prof. Silviya Simpson D'monte, Assistant Professor.
+             - Prof. Ancy Almeida, Assistant Professor."
       buttons:
       - title: "COMPS Syallbus"
         payload: '/comps_syllabus'
+      - title: "Latest COMPS e-Newsletter"
+        payload: '/comps_newsletter'
 
   utter_civil_faculties:
-    - text: ''
+    - text: " <b><u>CIVIL-FACULTIES:</u></b><br>
+             - <b>Prof. Rajesh Dubey, Head of Department.</b><br>
+             - Prof. Asir Khan, Assistant Professor.<br>
+             - Prof. Shreyans Dodia, Assistant Professor.<br>
+             - Prof. Nikhil Sonatakke, Assistant Professor.<br>
+             - Prof. Swapnil Wani, Assistant Professor.<br>
+             - Prof. Naved Qureshi, Assistant Professor.<br>
+             - Prof. Yuvraj Chavda, Assistant Professor.
+             - Prof. Mitali Poojari, Assistant Professor.
+             - Prof. Sachin Pawar, Assistant Professor."
       buttons:
       - title: "CIVIL Engineering Syallbus"
         payload: '/civil_syllabus'
-  
-  utter_aiml_faculties:
-    - text: ''
-      buttons:
-      - title: "AIML Syallbus"
-        payload: '/aiml_syllabus'
-  
-  utter_data_faculties:
-    - text: ''
-      buttons:
-      - title: "DATA Engineering Syallbus"
-        payload: '/data_syllabus'
+      - title: "Latest CIVIL e-Newsletter"
+        payload: '/civil_newsletter'
 
   utter_ash_syllabus:
-    - text: ''
+    - text: 'Download Syllabus for Applied Science & Humanities (FE) by <a href="https://universalcollegeofengineering.edu.in/courses-admissions/applied-science-humanities/syllabus/" target="_blank">Clicking Here</a>'
       buttons:
       - title: "Faculties of Applied Science & Humanities"
         payload: '/ash_faculties'
   
   utter_it_syllabus:
     - text: 'Download Syllabus for Information Technology Course from SE to BE 
-             by <a href="https://muquestionpapers.com/storage/syllabus/be_information-technology_se-to-be-semester-3-to-semester-8-syllabus-choice-based.pdf" target="_blank">Clicking here</a>'
+             by <a href="https://universalcollegeofengineering.edu.in/courses-admissions/it/syllabus/" target="_blank">Clicking here</a>'
       buttons:
       - title: "List of IT faculties"
         payload: '/it_faculties'
@@ -721,85 +708,110 @@ responses:
         payload: '/it_newsletter'
 
   utter_comps_syllabus:
-    - text: ''
+    - text: "Download Syllabus for Computer Engineering Course from SE to BE 
+             by <a href="https://universalcollegeofengineering.edu.in/courses-admissions/computer/syllabus/" target="_blank">Clicking here</a>"
       buttons:
       - title: "List of COMPUTER Engineering faculties"
         payload: '/comps_faculties'
 
   utter_civil_syllabus:
-    - text: ''
+    - text: "Download Syllabus for Civil Engineering Course from SE to BE 
+             by <a href="https://universalcollegeofengineering.edu.in/courses-admissions/civil/syllabus/" target="_blank">Clicking here</a>"
       buttons:
       - title: "List of CIVIL Engineering faculties"
         payload: '/civil_faculties'
-  
-  utter_aiml_syllabus:
-    - text: ''
-      buttons:
-      - title: "List of AIML Engineering faculties"
-        payload: '/aiml_faculties'
-  
-  utter_data_syllabus:
-    - text: ''
-      buttons:
-      - title: "List of DATA Engineering faculties"
-        payload: '/data_faculties'
 
   utter_it_newsletter:
-    - text: 'Read our Latest e-Newsletter of IT Department by <a href="https://universalcollegeofengineering.edu.in/wp-content/uploads/2020/04/April-2020.pdf" target="_blank">Clicking Here</a>'
+    - text: 'Read our Latest e-Newsletter of IT Department by <a href="https://universalcollegeofengineering.edu.in/courses-admissions/it/e-newsletter/" target="_blank">Clicking Here</a>'
       buttons:
       - title: "List of IT faculties"
         payload: '/it_faculties'
       - title: "IT Syllabus"
         payload: '/it_syllabus'
 
-  utter_fees:
-    - text: "Fee structure"
-      image: "https://i.imgur.com/5Ph3IqU.jpg"
+  utter_comps_newsletter:
+    - text: 'Read our Latest e-Newsletter of Computer Engineering Department by <a href="https://universalcollegeofengineering.edu.in/courses-admissions/computer/e-newsletter/" target="_blank">Clicking Here</a>'
       buttons:
-      - title: "Payment Methods"
-        payload: '/payment'
+      - title: "List of COMPS faculties"
+        payload: '/comps_faculties'
+      - title: "COMPS Syllabus"
+        payload: '/comps_syllabus'
+        
+  utter_civil_newsletter:
+    - text: 'Read our Latest e-Newsletter of Civil Engineering Department by <a href="https://universalcollegeofengineering.edu.in/courses-admissions/civil/e-newsletter/" target="_blank">Clicking Here</a>'
+      buttons:
+      - title: "List of CIVIL faculties"
+        payload: '/civil_faculties'
+      - title: "CIVIL Syllabus"
+        payload: '/civil_syllabus'
+
+  utter_aiml_newsletter:
+    - text: 'Read our Latest e-Newsletter of AIML Department by <a href="https://universalcollegeofengineering.edu.in/courses-admissions/artificial-intelligence-and-machine-learning/e-newsletter/" target="_blank">Clicking Here</a>'
+
+  utter_data_newsletter:
+    - text: 'Read our Latest e-Newsletter of DATA Department by <a href="https://universalcollegeofengineering.edu.in/courses-admissions/data-science/e-newsletter/" target="_blank">Clicking Here</a>'
+
+  utter_ash_newsletter:
+    - text: 'Read our Latest e-Newsletter of ASH Department by <a href="https://universalcollegeofengineering.edu.in/courses-admissions/applied-science-humanities/e-newsletter/" target="_blank">Clicking Here</a>'
+      buttons:
+      - title: "List of ASH faculties"
+        payload: '/it_faculties'
+      - title: "ASH Syllabus"
+        payload: '/it_syllabus'
+
+  utter_aiml_reason:
+    - text: 'Human and machine! Not versus. Deep integration for the purpose of 
+             augmenting humanity’s existence. The greatest benefit of Machine 
+             learning may be not what the machines learn but what we learn by 
+             teaching them.
+            <br>Come get along with us on this incredible journey of new autonomous 
+            future with AIML and be willing to challenge assumptions.'
+
+  utter_data_reason:
+    - text: 'Becoming a data engineer takes time and personal investment, but the
+             journey is exciting and well worth it!
+            <br>If you are wondering where to get started, UCOE has an industry 
+            designed curriculum to set you on the right track.'
+
+  utter_fees:
+    - text: "For details contact us on: <br> +91 840 7979 167 <br> +91 800 7090 722 
+             <br> +91 800 7478 659 <br> from Monday to Friday between 9:30 am to 4:30 pm."
+      buttons:
   
   utter_dte_code:
     - text: "The DTE code for college is 3460."
 
   utter_welcome:
-    - text: " You're 'welcome  👍 "
+    - text: " You're 'welcome"
     - text: "Welcome"
-    - text: "No problem 👌"
+    - text: "No problem "
     
   utter_display:
-    - text: "Here it is :"
-      image: "https://threebestrated.in/images/UniversalCollegeofEngineering-VasaiVirar-MH.png" 
-    - text: "Here:"
-      image: "https://universalcollegeofengineering.edu.in/wp-content/uploads/2019/07/UCoE-Build-2.jpg"  
-    - text: "Here's what college looks like:"
-      image: "https://universalcollegeofengineering.edu.in/wp-content/uploads/2019/07/lush-green-campus.jpg"
-
-  utter_examination:
-    - text: 'Download Examination Schedule By <a href="https://pdfhost.io/v/72oq.5SYI_EXAMDOC2020.pdf" target="_blank">Click Here</a>'
-                    
+    - text: "Here it is : <a href='https://universalcollegeofengineering.edu.in/photo-gallery/'>Gallery</a>"
+        
   # -text: "Hall tickets are provided a week before exams commences. A message will be sent informing about the date and time to collect the hall ticket. Marksheets can be collected on every working friday."
   # -text: "Revaluation results take almost a month after the last date fees has been paid."
     
   utter_payment:
-    - text: "Different payment methods are through Demand draft / pay order / credit card 💳 (excluding Amex card) / debit card."
+    - text: "For details contact us on: <br> +91 840 7979 167 <br> +91 800 7090 722 
+             <br> +91 800 7478 659 <br> from Monday to Friday between 9:30 am to 4:30 pm."
       buttons:
       - title: "Payment Last-Date"
         payload: '/payment_date'
 
   utter_payment_date:
-    - text: "Last date to pay the fees for academic year is 31st December 2021."  
+    - text: "For details contact us on: <br> +91 840 7979 167 <br> +91 800 7090 722 
+             <br> +91 800 7478 659 <br> from Monday to Friday between 9:30 am to 4:30 pm."  
       buttons: 
       - title: "Scholarship Details"
         payload: '/scholarship'
   
   utter_scholarship:
-    - text: "Yes college provides scholarships 🎓."
+    - text: "Yes college provides scholarships."
   
   utter_admission_schedule:
-    - text: 'Full Admission Schdule can be downloaded by <a href="https://universalcollegeofengineering.edu.in/wp-content/uploads/2019/07/Admission-Schedule.pdf" target="_blank">Clicking Here</a>
-            <br>(Click on image to see in Full Resolution)'
-      image: "https://universalcollegeofengineering.edu.in/wp-content/uploads/2019/07/UCoE-Admission-Advt-2019.jpg"
+    - text: 'For details contact us on: <br> +91 840 7979 167 <br> +91 800 7090 722 
+             <br> +91 800 7478 659 <br> from Monday to Friday between 9:30 am to 4:30 pm.'
       buttons:
       - title: "Eligibility Criteria"
         payload: '/admission_criteria'
@@ -811,10 +823,7 @@ responses:
         payload: '/diploma_admissions'
   
   utter_admission_documents:
-    - text: 'Documents required for admission:<br> 1. 10th Std. Marksheet <br> 
-             2. 12th Std Marksheet <br> 3. School Leaving crtificate <br> 
-             4. 5 passport size photgraphs of the student <br> For more details
-              <a href="https://universalcollegeofengineering.edu.in/courses-admissions/admissions/documents-required/" target="_blank">Click Here</a>'
+    - text: '<a href="https://universalcollegeofengineering.edu.in/courses-admissions/admissions/documents-required/" target="_blank">Click Here</a>'
       buttons:
       - title: "Admission Schedule"
         payload: '/admission_schedule'
@@ -824,10 +833,7 @@ responses:
         payload: '/last_date_admission'
 
   utter_admission_criteria:
-    - text: '1) Candidate should be Indian National <br> 
-             2) Student should have passes HSC or 10+s equivalent with subjects Physics, Maths, Chemistry, English <br> 
-             3) Secured minimum of 50% marks ie. 150 out of 300 in Physics, Maths, Chemistry, English.<br> 
-             For more info <a href="https://universalcollegeofengineering.edu.in/courses-admissions/admissions/admission-eligibility/" target="_blank">Click Here </a>'
+    - text: '<a href="https://universalcollegeofengineering.edu.in/courses-admissions/admissions/admission-eligibility/" target="_blank">Click Here </a>'
       buttons:
       - title: "Admission Schedule"
         payload: '/admission_schedule'
@@ -837,16 +843,16 @@ responses:
         payload: '/last_date_admission'
 
   utter_diploma_schedule:
-    - text: "<b>DIPLOMA ADMISSION for 2021-22 Batch</b> are to be notified."
+    - text: "Information about Diploma Admission to be available shortly."
 
   utter_diploma_documents:
-    - text: "<b>DIPLOMA DOCUMENTS:</b> <br> 1.All Diploma Semesters Marksheets and College Leaving Certificate <br> 2. 10th & 12th Std Marksheet."
+    - text: "Information about Diploma Admission to be available shortly."
 
   utter_diploma_criteria:
-    - text: "<b>DIPLOMA CRITERIA:</b> <br> Candidate should secured minimum 65%."
+    - text: "Information about Diploma Admission to be available shortly."
 
   utter_diploma_full_details:
-    - text: "<b>DIPLOMA ADMISSION for 2021-22 Batch</b> would be scheduled be soon <br> <b>DIPLOMA DOCUMENTS:</b> <br> 1.All Diploma Semesters Marksheets and College Leaving Certificate <br> 2. 10th & 12th Std Marksheet <br> <b>DIPLOMA CRITERIA:</b> <br> Candidate should secured minimum 65%"
+    - text: "Information about Diploma Admission to be available shortly."
     
   utter_intake:
     - text: "<b>INTAKE:</b><br>1.INFORMATION TECHNOLOGY:<b>60 Seats</b> <br>2.COMPUTER ENGINEERING:<b>120 Seats</b> <br>3.CIVIL ENGINEERING:<b>60 Seats</b> <br>4.DATA ENGINEERING:<b>60 Seats</b> <br>5.ARITIFICIAL INTELLIGENCE AND MACHINE LEARNING: <b>120 Seats</b><br><br>
@@ -855,24 +861,21 @@ responses:
       - title: "Cutoff"
         payload: '/cutoff'
 
-  utter_merit:
-    - text: "3 Merit list would be displayed."
 
   utter_brochure:
-    - text: 'Download College Brochure by <a href="https://universalcollegeofengineering.edu.in/wp-content/uploads/2020/05/UCoE-Prospectus-2020-21.pdf" target="_blank">Clicking Here</a>'
+    - text: 'Download College Brochure by <a href="https://universalcollegeofengineering.edu.in/wp-content/uploads/2021/08/UCoE-Prospectus-2021-22.pdf" target="_blank">Clicking Here</a>'
 
-  utter_food:
-    - text: "Today's Menu 🍽:<br>" 
-      image: "https://imgur.com/Bb5admc.jpg"  
 
 
   utter_faculty_name:
     - text: "HOD of Applied Science & Humanities :<b>Mr.Shivam Shukla</b> <br>
-             HOD of Information Techology :<b> Ms.Yogita Mane</b> <br>
+             HOD of Information Techology :<b> Mrs.Yogita Mane</b> <br>
              HOD of Computer Engineering :<b> Dr.Jitendra Saturwar</b> <br>
              HOD of Civil : <b>Mr.Rajesh Dubey</b> <br>
-             HOD of Electronics :<br><b> Ms.Mildrer Pereira</b> <br>
-             HOD of Electronics & Telecommunication :<br><b> Ms.Kaveri Sawant</b>"
+             HOD of Electronics :<br><b> Mrs. Kaveri Sawant</b> <br>
+             HOD of Artificial Intelligence and Machine Learning :<br><b> Dr. Ekta Upadhyay</b>
+             HOD of Data Engineering :<br><b> Dr. Ekta Upadhyay</b>
+             HOD of Electronics & Telecommunication :<br><b> Mrs.Kaveri Sawant</b>"
 
   utter_principal:
     - text: 'Our College Principal is<br> Dr. J.B.Patil<br>To meet Principal you have take to prior appointment<br> Timings: 10.00 am to 4.00 PM <br>To Read message from our Principal <a href="https://universalcollegeofengineering.edu.in/about-us/message-from-the-principal/" target="_blank">Click Here</a>'
@@ -886,9 +889,9 @@ responses:
         payload: '/founder'
 
   utter_about_college:
-    - text: "<b><u>ABOUT US:</u></b><br>Embraced by lush greenery 🌴 and scenic beauty 🌄, Universal College of Engineering is a treasured place for aspiring engineers to leave their imprints towards success 🎓.<br><br>
-    Our institute has been accredited by National Assessment and Accreditation Council (NAAC) with <b>B+ grade</b> in the first cycle of accreditation. To see the NAAC Certificate <a href = 'https://docdro.id/ErNrBCY' target='_blank'> Click Here </a>. <br><br>
-    Our institute has <b>Ranked No.1</b>🥇 by Times of India in Top Emerging Private Engineering Institutes for 5 consecutive years 2015-19.<br><br>
+    - text: "<b><u>ABOUT US:</u></b><br>Embraced by lush greenery and scenic beauty, Universal College of Engineering is a treasured place for aspiring engineers to leave their imprints towards success.<br><br>
+    Our institute has been accredited by National Assessment and Accreditation Council (NAAC) with <b>B+ grade</b> in the first cycle of accreditation.<br>
+    Our institute has <b>Ranked No.1</b> by Times of India in Top Emerging Private Engineering Institutes for 5 consecutive years 2015-19.<br><br>
     Universal college of Engineering is a Gujarati Linguistic Minority Institution<br><br>
     <b>Affiliation Details:</b><br>UCOE is approved by <b>AICTE</b> (All India Council for Technical Education) & Affilated to the <b>University of Mumbai</b>.<br>
     DTE Code: <b>3460</b>"
@@ -896,8 +899,8 @@ responses:
   utter_college_reopen:
     - text: "College will reopen when Government of Maharashtra and University of Mumbai Declares any official notice."
     
-  utter_last_date_admission:
-    - text: "The last date of admission is 24th July 2021."
+  # utter_last_date_admission:
+  #   - text: "The last date of admission is 24th July 2021."
     
   utter_college_timing:
     - text: "College timings are from 9am to 5pm, College remains closed during public holidays, Sundays, 2nd and 4th Saturday."
@@ -930,11 +933,8 @@ responses:
         payload: '/sports_room'
 
   utter_canteen:
-    - text: "Literati café is a place for some outstanding coffee ☕, delectable food 🍽 and a relaxing atmosphere. Hot beverages define the menu, but there is also an extensive selection of Indian snacks and meals🍱"
-      image: "https://i.imgur.com/7q2hVtm.png"
-      buttons:
-      - title: "Today's Menu 🍽"
-        payload: '/food'
+    - text: "Literati café is a place for some outstanding coffee, delectable food and a relaxing atmosphere. Hot beverages define the menu, but there is also an extensive selection of Indian snacks and meals"
+      image: "https://universalcollegeofengineering.edu.in/wp-content/uploads/2019/07/Cafeteriaimg.jpg"
 
   utter_locker_facility:
     - text: "Yes every student is provided with a locker. The size of the lockers is large enough to store their project work and their study material.
@@ -942,16 +942,13 @@ responses:
       image: "https://universalcollegeofengineering.edu.in/wp-content/uploads/2019/07/lockers.jpg"
 
   utter_wifi_facility:
-    - text: "College provides wifi facility 📶"
+    - text: "College provides wifi facility."
 
   utter_non_veg:
-    - text: "No non-veg food is provided."
-      image: "https://imgur.com/Bb5admc.jpg"
-    - text: "No non-veg food is served."
-      image: "https://imgur.com/Bb5admc.jpg"
+    - text: "Only Vegeterian food is served in canteen."
     
   utter_hostel:
-    - text: "No there is no 🏨 hostel service provided by the college."
+    - text: "No there is no hostel service provided by the college."
 
   utter_bcr_gcr:
     - text: "State-of-the-art separate common rooms for boys and girls are a part of our thoroughly professional infrastructure. Students can play chess, stretch themselves for a while, watch news channels, etc. during the non-classroom hours.
@@ -962,7 +959,8 @@ responses:
     - text: "In order to promote sports amongst the student, the college has facility for both Outdoor & Indoor Sports.<br> <b>Outdoor Sports</b> like Cricket 🏏,Football ⚽,Handball etc.<br> <b>Indoor Sports</b> like Table Tennis 🏓,Chess ♟️,Carrrom etc."
       
   utter_cutoff:
-    - text: "Cutoff percentage for departments:<br> 1. IT - 60% <br> 2. COMPS - 65% <br> 3. CIVIL - 55%<br> 4. AL&ML - 65%<br> 5. DE - 63%"
+    - text: "For details contact us on: <br> +91 840 7979 167 <br> +91 800 7090 722 
+             <br> +91 800 7478 659 <br> from Monday to Friday between 9:30 am to 4:30 pm."
       buttons:
       - title: "Intake"
         payload: '/intake'
@@ -996,31 +994,19 @@ responses:
       - title: "IETE"
         payload: '/IETE'
 
-  utter_hackstomp_date:
-    - text: "Hackstomp would be held on 14th and 15th February."
-    
   utter_hackstomp:
-    - text: "Hackstomp is 24 hours Hackathon 👨‍💻 organised by information technology department under ITSA of Universal College of Engineering."
- 
-  utter_IETE_schedule:
-    - text: "IETE would be held on 13th March."
+    - text: "Hackstomp is 24 hours Hackathon organised by information technology department under ITSA of Universal College of Engineering."
 
   utter_IETE:
     - text: 'The IETE focuses on advancement of the Science and Technology of Electronics, Telecommunication, Computers, Information Technology and related areas.<br> Universal College of Engineering organised many events like Project Exhibition and Poster Presentation under IETE. <br>For more details  <a href="https://universalcollegeofengineering.edu.in/enrichment-activities/iete/" target="_blank">Click Here</a>.'
   
-  utter_vyro_schedule:
-    - text: "Vyro would be held on 13th February"
-
   utter_vyro:
-    - text: "This is a technical 👨‍💻 as well as non-technical 🎉 event organised by Universal College of Engineering every year.<br>
+    - text: "This is a technical as well as non-technical event organised by Universal College of Engineering every year.<br>
             Students from various colleges across Mumbai, Thane and Palghar district enthusiastically participated in Vyro bash."
       image: "https://universalcollegeofengineering.edu.in/wp-content/uploads/2019/07/vyro-1.jpg"
-  
-  utter_aurora_schedule:
-    - text: "AURORA is scheduled from 11th January - 18th January."
 
   utter_aurora:
-    - text: 'AURORA is sports and cultural intra college competition held in college 🏆. Here there is competition for shield between the departments.'
+    - text: 'AURORA is sports and cultural intra college competition held in college. Here there is competition for shield between the departments.'
   
   utter_tantrostav:
     - text: "Tantrostav is Inter-college Technical Event for All branch students, various coding/programming, electrical and civil activities and competition are held."
@@ -1185,7 +1171,7 @@ responses:
     - text: "New College Id can be applied at the admin office<br> and Fees is 100 Rs."
 
   utter_library:
-    - text: 'Archivia – the library is a treasure house of thousands of books 📚, reference titles, annual reports, market studies, national & international newspapers 🗞️, national & international journals 📔, electronic journals, eBooks and iTunesU Podcasts.
+    - text: 'Archivia – the library is a treasure house of thousands of books, reference titles, annual reports, market studies, national & international newspapers, national & international journals, electronic journals, eBooks and iTunesU Podcasts.
     <br>Faculty and students use the library alike as an invaluable resource for business information and as a quiet place to study.<br>
     <br> For more info <a href = "https://universalcollegeofengineering.edu.in/about-us/our-campus/archivia-the-library/" target="_blank">Click here</a>'
       buttons:
@@ -1236,16 +1222,16 @@ responses:
         payload: '/placement_companies'
 
   utter_placement_companies:
-    - text: '🏢 Many good companies and startups comes to hire talented Final Year Students. These are some companies : 
+    - text: 'Many good companies and startups comes to hire talented Final Year Students. These are some companies : 
             <br> For More info <a href="https://universalcollegeofengineering.edu.in/placements/students-placement/" target="_blank">Click Here</a>
             <br>(Click on image to see in Full Resolution)'
-      image: "https://universalcollegeofengineering.edu.in/wp-content/uploads/2019/07/Company-Logo.jpg"
+      image: "https://universalcollegeofengineering.edu.in/wp-content/uploads/2019/07/Company-Logos.jpg"
 
   utter_goodbye:
-    - text: "Goodbye😄"
-    - text: "Bye 👋"
-    - text: "Talk to you later!👋🏻"
-    - text: "Bye-Bye👋"
+    - text: "Goodbye"
+    - text: "Bye"
+    - text: "Talk to you later!"
+    - text: "Bye-Bye"
 
   utter_transport_way:
     - text: "College provide paid bus service, but also you can reach college by Local Train, Shuttle Train, S.T Bus, Sharing vehicles(Rickshaw/TumTum) or by your own vehicle (We have parking facility)"
@@ -1261,7 +1247,7 @@ responses:
       image: "https://i.imgur.com/KlxqkVF.jpg"
 
   utter_parking:
-    - text: "We have on campus parking faciliy for Two Wheeler and Four Wheeler Vechicles."
+    - text: "We have parking faciliy available."
 
   utter_concession:
     - text: "Yes, college provides concession for Train and S.T Bus."
@@ -1273,7 +1259,7 @@ responses:
     - text: "For now I can provide you information about Admission, Fees, Examination, Location, Placements, Events, Photos of college and much more."
   
   utter_naac:
-    - text: "Our institute has been accredited by National Assessment and Accreditation Council (NAAC) with <b>B+ grade</b> in the first cycle of accreditation. <br><br> <b>To see the NAAC Certificate</b> <a href = 'https://docdro.id/ErNrBCY' target='_blank'> Click Here </a>. <br><br> <b>Naac Certification Process: </b> <a href = 'https://youtu.be/Pastneot-aw' target='_blank'>  Naac Visit Day1 </a> <br> <a href = 'https://youtu.be/QNZ4_-4e79g' target='_blank'> Naac Visit Day2 </a> "
+    - text: "Our institute has been accredited by National Assessment and Accreditation Council (NAAC) with <b>B+ grade</b> in the first cycle of accreditation. <br><br> <b>Naac Certification Process: </b> <a href = 'https://youtu.be/Pastneot-aw' target='_blank'>  Naac Visit Day1 </a> <br> <a href = 'https://youtu.be/QNZ4_-4e79g' target='_blank'> Naac Visit Day2 </a> "
     
   utter_unaided:
     - text: "Universal College of Engineering is Permanently Unaided."
@@ -1318,35 +1304,35 @@ responses:
   
   utter_ask_whatismyname:
     - text: It most probably is the one that your parents have chosen for you.
-    - text: Let me guess 🤔... your First Name 🤣
+    - text: Let me guess ... your First Name 
   
   utter_ask_weather:
-    - text: I don't know about where you live, but in my world it's always sunny ☀️
-    - text: Honestly it's a bit too hot these days 😅
+    - text: I don't know about where you live, but in my world it's always sunny 
+    - text: Honestly it's a bit too hot these days 
     - text: Blue skies and sun shine!
-    - text: Let's just say it hasn't rained in weeks ☀️
+    - text: Let's just say it hasn't rained in weeks 
   
   utter_ask_builder:
-    - text: The IT engineers at UCoE, Bhavin Vadhiya, Rishabh Mer and Ruchita Panchal 🛠.
-    - text: One of the smart engineers at UCoE! Bhavin Vadhiya, Rishabh Mer 🧠.
+    - text: The IT engineers at UCoE, Bhavin Vadhiya, Rishabh Mer and Ruchita Panchal.
+    - text: One of the smart engineers at UCoE! Bhavin Vadhiya, Rishabh Mer.
 
   utter_sayabout:
-    - text: I am doing great, what about you ?😀
+    - text: I am doing great, what about you ?
     - text: I am fine, how can I help you.
-    - text: I am good 😊
+    - text: I am good
     - text: I'm great! Thanks for asking.
     - text: I'm good, thanks!
     - text: "A little bit too warm, otherwise fine."
   
   utter_work:
-    - text: I can help you with college related queries 🙂
-    - text: Any queries about college ? UniBot is here 😎
-    - text: I will help you with any questions about college.. 😀
+    - text: I can help you with college related queries 
+    - text: Any queries about college ? UniBot is here 
+    - text: I will help you with any questions about college.. 
   
   utter_bad:
-    - text: That's so rude.. 😲
-    - text: That made me sad 😥
-    - text: That’s not very nice 😢
+    - text: That's so rude.. 
+    - text: That made me sad 
+    - text: That’s not very nice 
 
   utter_thanks:
     - text: "Thank You"
@@ -1355,7 +1341,7 @@ responses:
 
   utter_yes:
     - text: "Yes"
-    - text: "Yes 👍"
+    - text: "Yes"
 
   utter_college_age:
    - text: "Universal College of Engineering is 7 years old"
