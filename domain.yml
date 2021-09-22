@@ -46,11 +46,9 @@ actions:
 - utter_cutoff
 - utter_dte_code
 - utter_ucoe
-- utter_academic_calendar
 - utter_aurora
 - utter_vyro
 - utter_IETE
-- utter_hackstomp_date
 - utter_hackstomp
 - utter_events
 - utter_anti_ragging
@@ -69,9 +67,6 @@ actions:
 - utter_back_3
 - utter_thanks
 - utter_facility
-- utter_IETE_schedule
-- utter_vyro_schedule
-- utter_aurora_schedule
 - utter_transport_way
 - utter_what_else
 - utter_library
@@ -105,7 +100,6 @@ actions:
 - utter_nearest_station
 - utter_concession
 - utter_parking
-- utter_bus_id
 - utter_show_details
 - utter_id_application_accept
 - utter_choose_change
@@ -119,20 +113,23 @@ actions:
 - utter_AIML
 - utter_DATA
 - utter_ash_faculties
+- utter_extc_faculties
 - utter_it_faculties
 - utter_comps_faculties
 - utter_civil_faculties
-- utter_aiml_faculties
-- utter_data_faculties
 - utter_ash_syllabus
 - utter_it_syllabus
 - utter_comps_syllabus
 - utter_civil_syllabus
-- utter_aiml_syllabus
-- utter_data_syllabus
+- utter_aiml_reason
+- utter_data_reason
 - utter_it_newsletter
+- utter_comps_newsletter
+- utter_civil_newsletter
+- utter_aiml_newsletter
+- utter_data_newsletter
+- utter_ash_newsletter
 - utter_library_details
-- utter_notices
 - utter_suggestions
 - utter_diploma_schedule
 - utter_diploma_documents
@@ -140,7 +137,6 @@ actions:
 - utter_sports_room
 - utter_ask_feed
 - utter_about_college
-- utter_quote_day
 
 intents:
 - admission
@@ -194,11 +190,9 @@ intents:
 - non_veg
 - hostel
 - ucoe
-- academic_calendar
 - aurora
 - vyro
 - IETE
-- hackstomp_date
 - hackstomp
 - events
 - anti_ragging
@@ -220,9 +214,6 @@ intents:
 - appraise
 - more
 - facility
-- IETE_schedule
-- vyro_schedule
-- aurora_schedule
 - transport_way
 - what_else
 - ask_library
@@ -255,10 +246,8 @@ intents:
 - placed_student
 - nearest_station
 - distance
-- bus_id
 - concession
 - parking
-- apply_id
 - semester
 - stream
 - change_name
@@ -277,22 +266,24 @@ intents:
 - it_faculties
 - comps_faculties
 - civil_faculties
-- aiml_faculties
-- data_faculties
+- extc_faculties
 - ash_syllabus
 - it_syllabus
 - comps_syllabus
 - civil_syllabus
-- aiml_syllabus
-- data_syllabus
+- aiml_reason
+- data_reason
 - it_newsletter
+- comps_newsletter
+- civil_newsletter
+- aiml_newsletter
+- data_newsletter
+- ash_newsletter
 - library_details
-- notices
 - suggestions
 - diploma_admissions
 - sports_room
 - about_college
-- quote_day
 
 forms:
   - user_form
@@ -487,10 +478,6 @@ responses:
         payload: '/naac_grade'
       - title: "Anti-Ragging"
         payload: '/anti_ragging'
-      - title: "Notices"
-        payload: '/notices'
-      - title: "Quote of the Day"
-        payload: '/quote_day'
     
   utter_directions:
     - text: 'Near Bhajansons & Punyadham,Kaman Bhiwandi Road,Vasai, Palghar-401208.
@@ -623,11 +610,20 @@ responses:
         - title: "Why Join Data Engineering?"
           payload: '/data_reason'
 
+  utter_extc_faculties:
+    - text: "<b><u>EXTC-FACULTIES:</u></b><br>
+             - <b>Prof. Kaveri Sawant, Head of the Department.</b><br>
+             - Prof. Sonal Borse, Assistant Professor.<br>
+             - Prof. Sandeep Dubey, Assistant Professor.<br>
+             - Prof. Gaurav Shete, Assistant Professor.<br>
+             - Prof. Deepak Dave, Assistant Professor.<br>
+             - Prof. Sampada Pimpale, Assistant Professor.<br>"
+
   utter_ash_faculties:
     - text: "<b><u>ASH-FACULTIES:</u></b><br>
              - <b>Prof. Shivam Shukla, Head of the Department.</b><br>
              - Prof. Aniket Patil, Assistant Professor.<br>
-             - Prof. Neha shah, Assistant Professor.<br>
+             - Prof. Neha Shah, Assistant Professor.<br>
              - Prof. Nitesh Chaubey, Assistant Professor.<br>
              - Prof. Masiyuddin Khan, Assistant Professor.<br>
              - Prof. Marina Thomas, Assistant Professor.<br>
@@ -956,7 +952,10 @@ responses:
       image: "https://universalcollegeofengineering.edu.in/wp-content/uploads/2019/07/common-room.jpg"
 
   utter_sports_room:
-    - text: "In order to promote sports amongst the student, the college has facility for both Outdoor & Indoor Sports.<br> <b>Outdoor Sports</b> like Cricket 🏏,Football ⚽,Handball etc.<br> <b>Indoor Sports</b> like Table Tennis 🏓,Chess ♟️,Carrrom etc."
+    - text: "In order to promote sports amongst the student, the college has 
+             facility for both Outdoor & Indoor Sports.<br> <b>Outdoor Sports</b> 
+             like Cricket, Football, Handball etc.<br> <b>Indoor Sports</b> 
+             like Table Tennis, Chess, Carrrom etc."
       
   utter_cutoff:
     - text: "For details contact us on: <br> +91 840 7979 167 <br> +91 800 7090 722 
@@ -969,7 +968,10 @@ responses:
     - text: "UCOE stands for Universal College of Engineering"
     
   utter_events:
-    - text:  'We at UCoE organize many Inter-college events, <br>VYRO-National-level Tech Fest, <br>Hackstomp - 24 Hrs Hackathon, <br>SOUL of Universal,<br>Cultural Events and more<br><a href="https://universalcollegeofengineering.edu.in/enrichment-activities/" target="_blank">Click Here for More</a>'
+    - text:  'We at UCoE organize many Inter-college events, 
+            <br>VYRO-National-level Tech Fest, <br>Hackstomp - 24 Hrs Hackathon, 
+            <br>SOUL of Universal,<br>Cultural Events and more
+            <br><a href="https://universalcollegeofengineering.edu.in/enrichment-activities/" target="_blank">Click Here for More</a>'
       buttons:
       - title: "VYRO"
         payload: '/vyro'
@@ -983,7 +985,8 @@ responses:
         payload: '/aurora'
 
   utter_technical_events:
-    - text: "We at UCoE Organize Many Technical Events like VYRO-National-level TechFest, Hackstomp, Tantrostav, IETE Paper and Project Presentation"
+    - text: "We at UCoE Organize Many Technical Events like VYRO-National-level 
+             TechFest, Hackstomp, Tantrostav, IETE Paper and Project Presentation"
       buttons:
       - title: "VYRO"
         payload: '/vyro'
@@ -995,24 +998,38 @@ responses:
         payload: '/IETE'
 
   utter_hackstomp:
-    - text: "Hackstomp is 24 hours Hackathon organised by information technology department under ITSA of Universal College of Engineering."
+    - text: "Hackstomp is 24 hours Hackathon organised by information technology 
+             department under ITSA of Universal College of Engineering."
 
   utter_IETE:
-    - text: 'The IETE focuses on advancement of the Science and Technology of Electronics, Telecommunication, Computers, Information Technology and related areas.<br> Universal College of Engineering organised many events like Project Exhibition and Poster Presentation under IETE. <br>For more details  <a href="https://universalcollegeofengineering.edu.in/enrichment-activities/iete/" target="_blank">Click Here</a>.'
+    - text: 'The IETE focuses on advancement of the Science and Technology of 
+             Electronics, Telecommunication, Computers, Information Technology 
+             and related areas.<br> Universal College of Engineering organised 
+             many events like Project Exhibition and Poster Presentation under IETE.
+             <br>For more details  <a href="https://universalcollegeofengineering.edu.in/enrichment-activities/iete/" target="_blank">Click Here</a>.'
   
   utter_vyro:
-    - text: "This is a technical as well as non-technical event organised by Universal College of Engineering every year.<br>
-            Students from various colleges across Mumbai, Thane and Palghar district enthusiastically participated in Vyro bash."
+    - text: "This is a technical as well as non-technical event organised by 
+            Universal College of Engineering every year.<br>
+            Students from various colleges across Mumbai, Thane and Palghar 
+            district enthusiastically participated in Vyro bash."
       image: "https://universalcollegeofengineering.edu.in/wp-content/uploads/2019/07/vyro-1.jpg"
 
   utter_aurora:
-    - text: 'AURORA is sports and cultural intra college competition held in college. Here there is competition for shield between the departments.'
+    - text: 'AURORA is sports and cultural intra college competition held 
+             in college. Here there is competition for shield between the departments.'
   
   utter_tantrostav:
-    - text: "Tantrostav is Inter-college Technical Event for All branch students, various coding/programming, electrical and civil activities and competition are held."
+    - text: "Tantrostav is Inter-college Technical Event for All branch students, 
+             various coding/programming, electrical and civil activities and 
+             competition are held."
 
   utter_extra_activities:
-    - text: "At UCoE we have many extra curricular activities and technical clubs for students for sharing and learning skills like <br>CSI, e.yantra, IEEE,<br>International Society of Automation,<br> NSS, Organic Farming,<br> Speak Club, Student Council,<br> Women Development Cell etc."
+    - text: "At UCoE we have many extra curricular activities and technical 
+             clubs for students for sharing and learning skills like 
+             <br>CSI, e.yantra, IEEE,<br>International Society of Automation,
+             <br> NSS, Organic Farming,<br> Speak Club, Student Council,
+             <br> Women Development Cell etc."
       buttons:
       - title: "CSI"
         payload: '/csi'
@@ -1034,7 +1051,10 @@ responses:
         payload: '/wdcell'
 
   utter_csi:
-    - text: 'Universal College of Engineering connected with the esteemed Computer Society of India (CSI) to form CSI-UCOE Student Chapter.<br>The inauguration of the Student Chapter took place on 13th October 2015 at Universal College of Engineering, Vasai. 
+    - text: 'Universal College of Engineering connected with the esteemed 
+             Computer Society of India (CSI) to form CSI-UCOE Student Chapter.
+             <br>The inauguration of the Student Chapter took place on 
+             13th October 2015 at Universal College of Engineering, Vasai. 
               <br>For more info <a href="https://universalcollegeofengineering.edu.in/enrichment-activities/csi/" target="_blank">Click Here</a>
               <br>(Click on image to see in Full Resolution)'
       image: "https://universalcollegeofengineering.edu.in/wp-content/uploads/2019/07/Logo1.jpg"
@@ -1049,7 +1069,10 @@ responses:
         payload: '/automation'
   
   utter_eyantra:
-    - text: 'e-Yantra lab, associated with IIT Bombay was established on 28th July 2016 in Universal College of Engineering.<br>e-Yantra Lab Setup Initiative (eLSI) is a college-level program under which colleges are encouraged to set up robotics labs.
+    - text: 'e-Yantra lab, associated with IIT Bombay was established on 
+             28th July 2016 in Universal College of Engineering.
+             <br>e-Yantra Lab Setup Initiative (eLSI) is a college-level 
+             program under which colleges are encouraged to set up robotics labs.
               For more info <a href="https://universalcollegeofengineering.edu.in/enrichment-activities/e-yantra/" target="_blank">Click Here</a>
               <br>(Click on image to see in Full Resolution)'
       image: "https://universalcollegeofengineering.edu.in/wp-content/uploads/2019/07/eyantra01.jpg"
@@ -1064,7 +1087,10 @@ responses:
         payload: '/automation'
        
   utter_nss:
-    - text: 'The University of Mumbai has given support to the NSS and encourages all youth to join the program. The motto ‘NOT ME, BUT YOU’ underlines that the welfare of an individual is ultimately dependent on the welfare of the society as a whole.
+    - text: 'The University of Mumbai has given support to the NSS and encourages 
+             all youth to join the program. The motto ‘NOT ME, BUT YOU’ underlines
+             that the welfare of an individual is ultimately dependent on the 
+             welfare of the society as a whole.
               <br>For more info <a href="https://universalcollegeofengineering.edu.in/enrichment-activities/nss/" target="_blank">Click Here</a>'
       image: "https://universalcollegeofengineering.edu.in/wp-content/uploads/2019/07/NSS-06.jpg"
       buttons:
@@ -1078,7 +1104,11 @@ responses:
         payload: '/wdcell'
   
   utter_ieee:
-    - text: 'The IEEE Information Theory Society (ITS or ITSoc), formerly the IEEE Information Theory Group, is a professional society of the Institute of Electrical and Electronics Engineers(IEEE) focused on several aspects of information: processing, transmission, storage and usage, and the “foundations of the communication process”.
+    - text: 'The IEEE Information Theory Society (ITS or ITSoc), formerly the 
+             IEEE Information Theory Group, is a professional society of the 
+             Institute of Electrical and Electronics Engineers(IEEE) focused on 
+             several aspects of information: processing, transmission, storage and 
+             usage, and the “foundations of the communication process”.
               <br>For more info <a href="https://universalcollegeofengineering.edu.in/enrichment-activities/ieee-activities/" target="_blank">Click Here</a>
               <br>(Click on image to see in Full Resolution)'
       buttons:
@@ -1092,7 +1122,13 @@ responses:
         payload: '/automation'
   
   utter_farming:
-    - text: 'One of the unique features of Universal College of Engineering is that it advocates absolute need of organic farming and really seems to understand its sustainability.<br>Students involve in agricultural activities in collaboration with local farmers with an aim of eliminating pesticide-laden vegetables the students under the guidance of skillful faculty initiated Organic Farming from 27th June 2017 and thus by supporting the farmers economically
+    - text: 'One of the unique features of Universal College of Engineering is 
+             that it advocates absolute need of organic farming and really seems 
+             to understand its sustainability.<br>Students involve in agricultural 
+             activities in collaboration with local farmers with an aim of 
+             eliminating pesticide-laden vegetables the students under the 
+             guidance of skillful faculty initiated Organic Farming from 
+             27th June 2017 and thus by supporting the farmers economically
               <br>For more info <a href="https://universalcollegeofengineering.edu.in/enrichment-activities/organic-farming/" target="_blank">Click Here</a>
               <br>(Click on image to see in Full Resolution)'
       image: "https://universalcollegeofengineering.edu.in/wp-content/uploads/2019/07/organic-01.jpg"
@@ -1107,7 +1143,11 @@ responses:
         payload: '/wdcell'
   
   utter_automation:
-    - text: 'The International Society of Automation (www.isa.org) is a non-profit professional association that sets the standard for those who apply engineering and technology to improve the management, safety and cyber security of modern automation and control systems used across industry and critical infrastructure.
+    - text: 'The International Society of Automation (www.isa.org) is a 
+             non-profit professional association that sets the standard 
+             for those who apply engineering and technology to improve the 
+             management, safety and cyber security of modern automation and 
+             control systems used across industry and critical infrastructure.
               <br>The inauguration of the International Society of Automation took place on 29th January 2016 by the Department of Electronics and Telecommunication Engineering.
               <br>For more info <a href="https://universalcollegeofengineering.edu.in/enrichment-activities/international-society-of-automation/" target="_blank">Click Here</a>'
       buttons:
@@ -1121,7 +1161,12 @@ responses:
         payload: '/nss'
   
   utter_scouncil:
-    - text: 'Student council of Universal College of Engineering has a voice and a contribution to make our college activities successful. Active partnership between Student Council and faculty works effectively for the benefit of the entire college. It is important to give them opportunity to express their views on issues of concern to them in the college.
+    - text: 'Student council of Universal College of Engineering has a voice 
+             and a contribution to make our college activities successful. 
+             Active partnership between Student Council and faculty works 
+             effectively for the benefit of the entire college. It is important 
+             to give them opportunity to express their views on issues of 
+             concern to them in the college.
             <br>For more info <a href="https://universalcollegeofengineering.edu.in/enrichment-activities/speak-club/" target="_blank">Click Here</a>'
       buttons:
       - title: "CSI"
@@ -1134,7 +1179,11 @@ responses:
         payload: '/wdcell'
   
   utter_wdcell:
-    - text: 'The Women’s Development Cell (WDC) aims to promote awareness on gender equality and gender sensitisation in the society and among students in particular. Towards this end, the students are encouraged to undertake various research projects, participate in debates and awareness campaigns. 
+    - text: 'The Women’s Development Cell (WDC) aims to promote awareness on 
+             gender equality and gender sensitisation in the society and among 
+             students in particular. Towards this end, the students are encouraged 
+             to undertake various research projects, participate in debates and 
+             awareness campaigns. 
               <br>For more info <a href="https://universalcollegeofengineering.edu.in/enrichment-activities/women-development-cell/" target="_blank">Click Here</a>
               <br>(Click on image to see in Full Resolution)'
       image: "https://universalcollegeofengineering.edu.in/wp-content/uploads/2019/07/WDC.jpg"
@@ -1149,7 +1198,11 @@ responses:
         payload: '/speak_club'
   
   utter_speak_club:
-    - text: 'The Computer Engineering department of Universal College of Engineering inaugurated the ‘Society for Promoting Ethics, Awareness and Knowledge – SPEAK CLUB’ on 30th March 2019, with an intention to promote social awareness, civic rights and responsibilities and social/corporate etiquettes among the students
+    - text: 'The Computer Engineering department of Universal College of 
+             Engineering inaugurated the ‘Society for Promoting Ethics, 
+             Awareness and Knowledge – SPEAK CLUB’ on 30th March 2019, with an 
+             intention to promote social awareness, civic rights and 
+             responsibilities and social/corporate etiquettes among the students
             <br>For more info <a href="https://universalcollegeofengineering.edu.in/enrichment-activities/speak-club/" target="_blank">Click Here</a>
             <br>(Click on image to see in Full Resolution)'
       image: "https://universalcollegeofengineering.edu.in/wp-content/uploads/2019/07/SKC-02.jpg"
@@ -1161,14 +1214,12 @@ responses:
       - title: "Women Development Cell"
         payload: '/wdcell'
 
-  utter_academic_calendar:
-    - text: 'To download Acadmic Calendar <a href="https://universalcollegeofengineering.edu.in/wp-content/uploads/2020/01/2019-20-EVEN-academic-calendar.pdf" target="_blank">Click Here</a>'
-    
   utter_anti_ragging:
     - text: 'At UCoE we have Anti-Ragging Cell, with strict policy <br> Know More <a href="https://universalcollegeofengineering.edu.in/enrichment-activities/anti-ragging-cell/" targt="_blank">By Clicking Here</a>'
     
   utter_applying_id:
-    - text: "New College Id can be applied at the admin office<br> and Fees is 100 Rs."
+    - text: "For details contact us on: <br> +91 840 7979 167 <br> +91 800 7090 722 
+             <br> +91 800 7478 659 <br> from Monday to Friday between 9:30 am to 4:30 pm."
 
   utter_library:
     - text: 'Archivia – the library is a treasure house of thousands of books, reference titles, annual reports, market studies, national & international newspapers, national & international journals, electronic journals, eBooks and iTunesU Podcasts.

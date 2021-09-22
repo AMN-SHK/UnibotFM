@@ -73,10 +73,6 @@
 * back3
     - utter_back_3
 
-## quote
-* quote_day
-    - utter_quote_day
-    - utter_suggestions
 
 ## information technology
 * IT
@@ -110,13 +106,9 @@
 * civil_faculties
     - utter_civil_faculties
 
-## aiml_faculty
-* aiml_faculties
-    - utter_aiml_faculties
-
-## data_faculty
-* data_faculties
-    - utter_data_faculties
+## extc_faculty
+* extc_faculties
+    - utter_extc_faculties
 
 ## it_syllabus
 * it_syllabus
@@ -130,17 +122,37 @@
 * civil_syllabus
     - utter_civil_syllabus
 
-## aiml_syllabus
-* aiml_syllabus
-    - utter_aiml_syllabus
+## aiml_reason
+* aiml_reason
+    - utter_aiml_reason
 
-## data_syllabus
-* data_syllabus
-    - utter_data_syllabus
+## data_reason
+* data_reason
+    - utter_data_reason
 
 ## it_newsletter
 * it_newsletter
     - utter_it_newsletter
+
+## comps_newsletter
+* comps_newsletter
+    - utter_comps_newsletter
+
+## civil_newsletter
+* civil_newsletter
+    - utter_civil_newsletter
+
+## aiml_newsletter
+* aiml_newsletter
+    - utter_aiml_newsletter
+
+## data_newsletter
+* data_newsletter
+    - utter_data_newsletter
+
+## ash_newsletter
+* ash_newsletter
+    - utter_ash_newsletter
 
 ## ask_admission_criteria
 * admission_criteria
@@ -267,11 +279,6 @@
 * ucoe
     - utter_ucoe
 
-## notices
-* notices
-    - utter_notices
-    - utter_suggestions
-
 ## images
 * images
     - utter_display 
@@ -323,10 +330,6 @@
 ## college_reopen
 * college_reopen
   - utter_college_reopen 
-
-## academic_calendar
-* academic_calendar
-    -  utter_academic_calendar
     
 ## about_college
 * about_college
@@ -347,9 +350,6 @@
 * bus_fees
     - utter_bus_fees
 
-## bus_id_e
-* bus_id
-    - utter_bus_id
 
 ## location
 * directions   
@@ -420,39 +420,19 @@
 * IETE
     - utter_IETE
 
-## IETE Schedule
-* IETE_schedule
-    - utter_IETE_schedule
 
 ## hackstomp1
 * hackstomp
     - utter_hackstomp
     
-## hackstomp2
-* hackstomp
-    - utter_hackstomp
-* hackstomp_date
-    - utter_hackstomp_date
     
 ## ask_vyro
 * vyro
     - utter_vyro
 
-## vyro_schedule
-* vyro_schedule
-    - utter_vyro_schedule
-    
 ## ask_aurora
 * aurora
     - utter_aurora
-
-## aurora_schedule
-* aurora_schedule
-    - utter_aurora_schedule
-
-## ask_hackstomp_date
-* hackstomp_date
-    - utter_hackstomp_date
 
 ## ask_tantrostav
 * tantrostav

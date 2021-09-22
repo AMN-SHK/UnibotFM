@@ -60,13 +60,6 @@
 - Sorry
 - Na
 
-## intent:quote_day
-- quote of the day
-- Quote of the day
-- Quote
-- quote
-- quotes
-
 <!-- Department/Course Related -->
 ## intent:department
 - What are the departments in college?
@@ -240,25 +233,15 @@
 - teachers of civil
 - professors of civil
 
-## intent:aiml_faculties
-- faculties of AIML department
-- Artificial Intelligence and Machine Learning Engineering faculty
-- faculty of aiml
-- faculty of Artificial Intelligence and Machine Learning Engineering
-- AIML faculty
-- artificial intelligence and machine learning engineering faculties
-- teachers of aiml
-- professors of aiml
-
-## intent:data_faculties
-- faculties of DATA engineering department
-- Data engineering faculty
-- faculty of data 
-- faculty of Data Engineering
-- DATA faculty
-- data engineering faculties
-- teachers of data engineering
-- professors of data engineering
+## intent:extc_faculties
+- faculties of electronics department
+- electronics faculty
+- faculty of extc 
+- faculty of electronics Engineering
+- EXTC faculty
+- electronics engineering faculties
+- teachers of electronics engineering
+- professors of electronics engineering
 
 ## intent:ash_syllabus
 - syllabus for Applied Science and Humanities department
@@ -299,6 +282,42 @@
 - modules in comps
 - modules in computer engineering
 
+## intent:aiml_reason
+- Why join UG program in AIML?
+- why aiml
+- aiml reason
+- why should i opt for aiml
+- why should i join aiml
+- aiml benefits
+- aiml scope
+- why to choose aiml
+- Why join UG program in artificial intelligence and machine learning?
+- why artificial intelligence and machine learning
+- aiml reason
+- why should i opt for artificial intelligence and machine learning
+- why should i join artificial intelligence and machine learning
+- artificial intelligence and machine learning benefits
+- artificial intelligence and machine learning scope
+- why to choose artificial intelligence and machine learning
+
+## intent:data_reason
+- Why join UG program in DATA?
+- why data
+- data reason
+- why should i opt for data
+- why should i join data
+- data benefits
+- data scope
+- why to choose data
+- Why join UG program in data engineering?
+- why data engineering
+- data engineering reason
+- why should i opt for data engineering
+- why should i join data engineering
+- data engineering benefits
+- data engineering scope
+- why to choose data engineering
+
 ## intent:civil_syllabus
 - syllabus for civil department
 - civil department syllabus
@@ -312,32 +331,6 @@
 - modules in civil
 - modules in civil engineering
 
-## intent:aiml_syllabus
-- syllabus for aiml department
-- aiml department syllabus
-- aiml syllabus
-- syllabus for aiml
-- AIML syllabus
-- AIML course syllabus
-- arificial intelligence and machine learning engineering syllabus
-- subjects in artificial intelligence and machine learning
-- subjects in aiml
-- modules in aiml
-- modules in artificial intelligence and machine learning
-
-## intent:data_syllabus
-- syllabus for data department
-- data department syllabus
-- data syllabus
-- syllabus for data engineering
-- DATA syllabus
-- DATA course syllabus
-- data engineering syllabus
-- subjects in data engineering
-- subjects in data
-- modules in data
-- modules in data engineering
-
 ## intent:it_newsletter
 - newsletter of IT department
 - information technology newsletter
@@ -345,7 +338,55 @@
 - newsletter of information technology
 - IT newsletter
 - information technology newsletter
-- magzine of it
+- magazine of it
+
+## intent:comps_newsletter
+- newsletter of COMPS department
+- computer engineering newsletter
+- newsletter of comps
+- newsletter of computer engineering
+- COMPS newsletter
+- computer science newsletter
+- comps magazine
+- magazine of comps
+
+## intent:civil_newsletter
+- newsletter of CIVIL department
+- civil engineering newsletter
+- newsletter of civil
+- newsletter of civil engineering
+- CIVIL newsletter
+- civil magazine
+- magazine of civil
+
+## intent:aiml_newsletter
+- newsletter of AIML department
+- artificial intelligence and machine learning newsletter
+- newsletter of aiml
+- newsletter of artificial intelligence and machine learning
+- aiml newsletter
+- artificial intelligence and machine learning magazine
+- magazine of aiml
+
+## intent:data_newsletter
+- newsletter of DATA department
+- data engineering newsletter
+- newsletter of data
+- newsletter of data engineering
+- dat newsletter
+- data engineering magazine
+- magazine of data
+- magazine of data engineering
+
+## intent:ash_newsletter
+- newsletter of ASH department
+- applied humanities and sciences newsletter
+- newsletter of ash
+- newsletter of applied humanities and sciences
+- ash newsletter
+- applied humanities and sciences magazine
+- magazine of ash
+
 
 ## intent:intake
 - What is the intake of IT/comps/civil/data/AI&ML department?
@@ -851,21 +892,6 @@
 - bullying
 - anti bullying
 
-## intent:academic_calendar
-- Academic Calendar
-- No. of instructional days of even semester year 2021-22
-- List of holidays in even semester 2021-22
-- Show the academic calendar for even semester year 2021-22
-- Number of holidays
-- List of holidays
-- academic calendar for this year
-- academic calendar
-- holiday list
-- academic holidays
-- instructional days
-- how many instructional days
-- how many holidays
-
 ## intent:attendance
 - What are the attendance criteria
 - attendance criteria in college
@@ -1256,12 +1282,6 @@
 - functions in college
 - functions held in college
 
-## intent:hackstomp_date
-- When is hackstomp scheduled?
-- when is hackstomp?
-- When hackstomp gets scheduled
-- hackstomp deadline
-- hackathon dates
 
 ## intent:hackstomp
 - What is hackstomp?
@@ -1283,13 +1303,6 @@
 - details of iete
 - IETE
 
-## intent:IETE_schedule
-- When is IETE scheduled?
-- when is IETE?
-- iete date
-- iete schedule
-- iete deadline
-
 ## intent:vyro
 - VYRO
 - vyro
@@ -1304,26 +1317,6 @@
 - vyro rules
 - is vyro inter-college
 - intercollege events held by college
-
-## intent:vyro_schedule
-- When is vyro going to be held? 
-- when is vyro ?
-- vyro date
-- vyro schedule
-- vyro deadline
-- vyro registration
-
-## intent:aurora_schedule
-- When is AURORA scheduled?
-- when will college sports be held
-- when are cultural events going to be held
-- sports date
-- date for sports in college
-- aurora date
-- sport schedule
-- aurora schedule
-- aurora deadline
-- aurora registration dates
 
 ## intent:aurora
 - what is aurora
