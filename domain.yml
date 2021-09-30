@@ -887,8 +887,6 @@ responses:
   utter_college_reopen:
     - text: "College will reopen when Government of Maharashtra and University of Mumbai Declares any official notice."
     
-  # utter_last_date_admission:
-  #   - text: "The last date of admission is 24th July 2021."
     
   utter_college_timing:
     - text: "College timings are from 9am to 5pm, College remains closed during public holidays, Sundays, 2nd and 4th Saturday."
