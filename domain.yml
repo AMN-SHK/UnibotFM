@@ -704,15 +704,15 @@ responses:
         payload: '/it_newsletter'
 
   utter_comps_syllabus:
-    - text: "Download Syllabus for Computer Engineering Course from SE to BE 
-             by <a href="https://universalcollegeofengineering.edu.in/courses-admissions/computer/syllabus/" target="_blank">Clicking here</a>"
+    - text: 'Download Syllabus for Computer Engineering Course from SE to BE 
+             by <a href="https://universalcollegeofengineering.edu.in/courses-admissions/computer/syllabus/" target="_blank">Clicking here</a>'
       buttons:
       - title: "List of COMPUTER Engineering faculties"
         payload: '/comps_faculties'
 
   utter_civil_syllabus:
-    - text: "Download Syllabus for Civil Engineering Course from SE to BE 
-             by <a href="https://universalcollegeofengineering.edu.in/courses-admissions/civil/syllabus/" target="_blank">Clicking here</a>"
+    - text: 'Download Syllabus for Civil Engineering Course from SE to BE 
+             by <a href="https://universalcollegeofengineering.edu.in/courses-admissions/civil/syllabus/" target="_blank">Clicking here</a>'
       buttons:
       - title: "List of CIVIL Engineering faculties"
         payload: '/civil_faculties'
