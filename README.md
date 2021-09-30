@@ -6,7 +6,7 @@ UniBot is Artificial Intelligence Powered ChatBot for College Related Enquiries 
 
 1. Python 3.6/3.7
 
-2. Rasa Version 1.10.10
+2. Rasa Version 1.10.1
 
 3. Node.js
 
@@ -17,7 +17,7 @@ UniBot is Artificial Intelligence Powered ChatBot for College Related Enquiries 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Rasa.
 
 ```bash
-pip install rasa==1.10.10
+pip install rasa==1.10.1
 ```
 
 ```bash
