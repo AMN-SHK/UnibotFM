@@ -724,7 +724,7 @@ responses:
     - text: "No problem "
     
   utter_display:
-    - text: 'Here it is : <a href='https://universalcollegeofengineering.edu.in/photo-gallery/'>Gallery</a>'
+    - text: 'Here it is : <a href="https://universalcollegeofengineering.edu.in/photo-gallery/">Gallery</a>'
         
   # -text: "Hall tickets are provided a week before exams commences. A message will be sent informing about the date and time to collect the hall ticket. Marksheets can be collected on every working friday."
   # -text: "Revaluation results take almost a month after the last date fees has been paid."
