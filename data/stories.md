@@ -18,13 +18,6 @@
     - utter_greet_e
     - utter_suggestions
 
-## id_card_application + no_changes
-* apply_id
-    - id_card_form
-    - form{"name": "id_card_form"}
-    - utter_show_details
-    - form{"name": null}
-    - utter_id_application_accept
 
 ## ok + yes
 * ok
@@ -621,14 +614,8 @@
     - form{"name": null}
     - utter_greet_e
     - utter_suggestions
-* quote_day
-    - utter_quote_day
-    - utter_suggestions
 * about_college
     - utter_about_college
-    - utter_suggestions
-* notices
-    - utter_notices
     - utter_suggestions
 
 ## admission + sugg + feed
