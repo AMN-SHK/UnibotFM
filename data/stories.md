@@ -473,7 +473,6 @@
     
 ## ask_food
 * food
-    - utter_food
     - utter_facility
 
 ## ask_non_veg
